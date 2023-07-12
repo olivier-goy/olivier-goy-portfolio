@@ -14,9 +14,29 @@
 }
 .navHeader {
     flex: 1;
-    margin-right: 20px;
+    height: 100%;
     justify-content: flex-end;
     display: flex;
-    gap: 3%;
+    font-weight: 900;
+}
+.active {
+    text-decoration: none;
+    color: #262626;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: default;
+}
+.pending {
+    text-decoration: none;
     color: #94D25A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
 }
