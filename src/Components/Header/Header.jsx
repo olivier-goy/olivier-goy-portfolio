@@ -2,8 +2,13 @@ import "./Header.css";
 
 function Header() {
     return (
-        <div>
-            <h1>Header</h1>
+        <div className="header">
+            <div className="iconHeader">
+
+            </div>
+            <div className="navHeader">
+
+            </div>
         </div>
     )
 }
