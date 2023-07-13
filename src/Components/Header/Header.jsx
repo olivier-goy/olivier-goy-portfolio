@@ -1,6 +1,7 @@
-import "./Header.css";
-import icon from "../../Assets/iconHeader.png"
 import { NavLink } from "react-router-dom";
+import "./Header.css";
+import icon from "../../Assets/iconHeader.png";
+import cv from "../../Assets/CV-2023.pdf";
 
 function Header() {
     return (
@@ -22,10 +23,10 @@ function Header() {
                     <a href="#Realisations" className="pending">
                         REALISATIONS
                     </a>
-                    <a href="#cv" className="pending">
+                    <a href={cv} target="_blank" rel="noreferrer" className="pending">
                         CV
                     </a>
-                    <a href="#contact" className="pending">
+                    <a href="mailto:olivier.goy.37@gmail.com" className="pending">
                         CONTACT
                     </a>
                 </div>

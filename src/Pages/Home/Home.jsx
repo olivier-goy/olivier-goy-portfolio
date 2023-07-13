@@ -8,7 +8,7 @@ import Tag from '../../Components/Tag/Tag';
 
 function Home() {
   return (
-    <div className="App">
+    <div className="home">
       <h1>Home</h1>
       <Card />
       <CarouselProject />

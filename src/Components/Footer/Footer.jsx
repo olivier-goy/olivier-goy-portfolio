@@ -1,9 +1,19 @@
 import "./Footer.css";
+import logoEmail from "../../Assets/e-mail.png";
+import logoGithub from "../../Assets/logoGithub.png";
+import logoLinkedin from "../../Assets/logoLinkedin.png";
 
 function Footer() {
     return (
-        <div id="footer" className="footer">
-            <h1>Footer</h1>
+        <div className="footer">
+            <div className="footerLink">
+                <a href="mailto:olivier.goy.37@gmail.com"><img src={logoEmail} alt="logo email" /></a>
+                <a href="https://github.com/olivier-goy" className="logoGithub" target="_blank" rel="noreferrer"><img src={logoGithub} alt="logo GitHub" /></a>
+                <a href="https://www.linkedin.com/in/olivier-goy/" target="_blank" rel="noreferrer"><img src={logoLinkedin} alt="logo Linkedin" /></a>
+            </div>
+            <div>
+                <p>Réalisé par Olivier GOY</p>
+            </div>
         </div>
     )
 }
