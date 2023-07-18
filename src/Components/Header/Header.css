@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 110px;
+    height: 80px;
     background-color: #262626;
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@
     margin-left: 20px;
 }
 .iconHeader img {
-    width: 80px;
+    width: 65px;
 }
 .navHeader {
     flex: 1;
