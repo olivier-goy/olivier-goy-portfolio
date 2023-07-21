@@ -1,42 +1,154 @@
-.header {
-    width: 100%;
-    height: 80px;
-    background-color: #262626;
-    display: flex;
-    align-items: center;
+.nav {
+  width: 100%;
+  height: 80px;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
 }
 .iconHeader {
-    flex: 1;
-    margin-left: 20px;
+  flex: 2;
+  margin-left: 20px;
 }
 .iconHeader img {
-    width: 65px;
+  width: 65px;
 }
 .navHeader {
-    flex: 1;
-    height: 100%;
-    justify-content: flex-end;
-    display: flex;
-    font-weight: 900;
+  flex: 1.5;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  display: flex;
+  font-size: 12px;
+  font-weight: 900;
 }
 .active {
-    text-decoration: none;
-    color: #262626;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    cursor: default;
+  text-decoration: none;
+  color: #262626;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: default;
 }
 .pending {
+  text-decoration: none;
+  color: #94d25a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.displayMenu {
+  display: none;
+}
+.menuRespondsive {
+  display: block;
+}
+.iconMenuRespondsive {
+  position: relative;
+}
+.innerMenu {
+  right: 0;
+  position: absolute;
+  background-color: #262626;
+  width: 30%;
+  height: auto;
+  display: none;
+}
+.linkMenu {
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  color: #94d25a;
+  text-decoration: none;
+  margin-top: 20px;
+  height: 60px;
+  font-weight: 900;
+}
+
+@media (max-width: 1500px) {
+  .navHeader {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1300px) {
+  .nav {
+    height: 60px;
+  }
+  .iconHeader img {
+    width: 50px;
+  }
+  .navHeader {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1200px) {
+  .navHeader {
+    font-size: 9px;
+  }
+}
+@media (max-width: 1050px) {
+  .nav {
+    height: 50px;
+  }
+  .iconHeader img {
+    width: 40px;
+  }
+  .navHeader {
+    font-size: 8px;
+  }
+}
+@media (max-width: 950px) {
+  .navHeader {
+    font-size: 12px;
+  }
+  .innerMenu {
+    display: block;
+  }
+  .pending {
+    display: none;
+    width: 20%;
+  }
+  .pendingResponsive {
+    color: #94d25a;
     text-decoration: none;
-    color: #94D25A;
+    text-align: center;
+  }
+  .displayMenu {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
+  }
+}
+@media (max-width: 700px) {
+  .navHeader {
+    font-size: 10px;
+  }
+  .pending {
+    display: none;
+    width: 25%;
+  }
+  .displayMenu {
+    display: flex;
+  }
+}
+@media (max-width: 500px) {
+  .navHeader {
+    font-size: 9px;
+  }
+  .pending {
+    display: none;
+    width: 30%;
+  }
+  .displayMenu {
+    display: flex;
+  }
+  .innerMenu {
+    width: 35%;
+  }
+  .linkMenu {
+    font-size: 12px;
+  }
 }
