@@ -22,6 +22,7 @@
 .logoGithub {
   margin: 0 40px;
 }
+
 @media (max-width: 950px) {
   .footer p {
     font-size: 25px;
@@ -30,7 +31,6 @@
     width: 45px;
   }
 }
-
 @media (max-width: 600px) {
   .footer p {
     font-size: 20px;
