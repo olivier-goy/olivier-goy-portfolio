@@ -42,6 +42,12 @@
   height: 100%;
   cursor: pointer;
 }
+.pending:hover {
+  background-color: grey;
+}
+.pending:active {
+  background-color: #ffffff;
+}
 .displayMenu {
   display: none;
 }
@@ -52,21 +58,17 @@
   position: relative;
 }
 .innerMenu {
-  right: 0;
-  position: absolute;
-  background-color: #262626;
-  width: 30%;
-  height: auto;
   display: none;
 }
 .linkMenu {
   text-align: center;
-  display: block;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: #94d25a;
   text-decoration: none;
-  margin-top: 20px;
-  height: 60px;
+  height: 100px;
   font-weight: 900;
 }
 
@@ -107,11 +109,23 @@
     font-size: 12px;
   }
   .innerMenu {
+    border-left: solid 2px #262626;
     display: block;
+    right: 0;
+    position: absolute;
+    background-color: #262626;
+    width: 30%;
+    height: auto;
   }
   .pending {
     display: none;
     width: 20%;
+  }
+  .linkMenu:hover {
+    background-color: grey;
+  }
+  .linkMenu:active {
+    background-color: #ffffff;
   }
   .pendingResponsive {
     color: #94d25a;

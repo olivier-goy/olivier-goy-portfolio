@@ -38,9 +38,9 @@ function Header() {
                         <a href="mailto:olivier.goy.37@gmail.com" className="pending">
                             CONTACT
                         </a>
-                        <div href="#/" className=" displayMenu pending">
+                        <div onClick={() => setIsOpenMenu(!isOpenMenu)} className="displayMenu pending">
                             <div className="menuRespondsive">
-                                <div className="iconMenuRespondsive" onClick={() => setIsOpenMenu(!isOpenMenu)}>
+                                <div className="iconMenuRespondsive">
                                     <FontAwesomeIcon icon={faBars} size="2x" />
                                 </div>
                             </div>
@@ -55,19 +55,19 @@ function Header() {
                                 ACCUEIL
                             </NavLink>
                         </div>
-                        <a href="#skills" className="linkMenu">
+                        <a href="#skills" onClick={() => setIsOpenMenu(!isOpenMenu)} className="linkMenu">
                             COMPETENCE
                         </a>
-                        <a href="#abouts" className="linkMenu">
+                        <a href="#abouts" onClick={() => setIsOpenMenu(!isOpenMenu)} className="linkMenu">
                             A-PROPOS
                         </a>
-                        <a href="#Realisations" className="linkMenu">
+                        <a href="#Realisations" onClick={() => setIsOpenMenu(!isOpenMenu)} className="linkMenu">
                             REALISATIONS
                         </a>
-                        <a href={cv} target="_blank" rel="noreferrer" className="linkMenu">
+                        <a href={cv} target="_blank" rel="noreferrer" onClick={() => setIsOpenMenu(!isOpenMenu)} className="linkMenu">
                             MON CV
                         </a>
-                        <a href="mailto:olivier.goy.37@gmail.com" className="linkMenu">
+                        <a href="mailto:olivier.goy.37@gmail.com" onClick={() => setIsOpenMenu(!isOpenMenu)} className="linkMenu">
                             CONTACT
                         </a>
                     </div>
