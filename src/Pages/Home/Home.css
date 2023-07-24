@@ -1,3 +1,33 @@
-.home {
-  height: 2000px;
+.homeFirstSection {
+  display: flex;
+  width: 100%;
+}
+.sectionImage {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-filter: drop-shadow(0 0 20px #262626);
+  filter: drop-shadow(0 0 20px #262626);
+}
+.sectionImage img {
+  width: 65%;
+  height: auto;
+  clip-path: ellipse(50% 38%);
+}
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 100%;
+}
+h1 {
+  color: #262626;
+  font-size: 50px;
+}
+.spanTitle {
+  color: gray;
+  font-size: 45px;
 }
