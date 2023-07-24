@@ -24,10 +24,29 @@
   width: 100%;
 }
 h1 {
-  color: #262626;
   font-size: 50px;
 }
 .spanTitle {
   color: gray;
   font-size: 45px;
 }
+.iconFirstSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: 5s animationIcon infinite;
+  animation: 5s animationIcon infinite;
+}
+.iconFirstSection p {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 5px;
+}
+@keyframes animationIcon {
+  0%   {transform: scale(0.80); opacity: 0.70;}
+  70% {transform: scale(1); opacity: 1;}
+  100% {transform: scale(0.80); opacity: 0.70;}
+}
+
