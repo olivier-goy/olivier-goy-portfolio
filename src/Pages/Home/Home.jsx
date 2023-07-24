@@ -5,6 +5,7 @@ import CarouselProjectImage from "../../Components/Carousel/CarouselProjectImage
 import Modal from '../../Components/Modal/Modal';
 import Tag from '../../Components/Tag/Tag';
 import Presentation from '../../Components/Presentation/Presentation';
+import Skill from '../../Components/Skill/Skill';
 
 
 function Home() {
@@ -14,7 +15,7 @@ function Home() {
        <Presentation />
       </section>
       <section>
-        
+        <Skill />
       </section>
       <Card />
       <CarouselProject />
