@@ -12,7 +12,7 @@ function Footer() {
                 <a href="https://www.linkedin.com/in/olivier-goy/" target="_blank" rel="noreferrer"><img src={logoLinkedin} alt="logo Linkedin" /></a>
             </div>
             <div>
-                <p>Réalisé par Olivier GOY</p>
+                <h2>Réalisé par Olivier GOY</h2>
             </div>
         </div>
     )
