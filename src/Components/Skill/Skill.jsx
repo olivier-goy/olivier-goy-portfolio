@@ -3,8 +3,8 @@ import "./Skill.css";
 function Skill() {
 
     return (
-        <div>
-
+        <div className="skillSection">
+                <h2>MES COMPETENCES</h2>
         </div>
     )
 }
