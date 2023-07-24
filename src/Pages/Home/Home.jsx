@@ -4,18 +4,21 @@ import CarouselProject from "../../Components/Carousel/CarouselProject/CarouselP
 import CarouselProjectImage from "../../Components/Carousel/CarouselProjectImage/CarouselProjectImage"
 import Modal from '../../Components/Modal/Modal';
 import Tag from '../../Components/Tag/Tag';
+import imageProfil from "../../Assets/Photo-de-profil.jpg"
 
 
 function Home() {
   return (
     <div className="home">
-      <section>
-        <div>
-
+      <section className="homeFirstSection">
+        <div className="sectionImage">
+            <img src={imageProfil} alt="Représentation profil Olivier GOY développeur web" />
         </div>
-        <div>
-          <h1>Bonjour et bienvenu,<span>Je suis Olivier GOY Développeur Web Fullstack</span></h1>
-
+        <div className="sectionTitle">
+          <h1>Bonjour et bienvenu,
+            <br />
+            <span className="spanTitle">Je suis Olivier GOY <br />Développeur Web Fullstack</span>
+          </h1>
         </div>
       </section>
       <Card />
