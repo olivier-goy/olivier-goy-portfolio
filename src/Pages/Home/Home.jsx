@@ -1,4 +1,3 @@
-
 import './Home.css';
 import Card from '../../Components/Card/Card';
 import CarouselProject from "../../Components/Carousel/CarouselProject/CarouselProject";
@@ -13,6 +12,9 @@ function Home() {
     <div className="home">
       <section>
        <Presentation />
+      </section>
+      <section>
+        
       </section>
       <Card />
       <CarouselProject />
