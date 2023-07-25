@@ -1,0 +1,33 @@
+[
+    {
+        "id": "1",
+        "firstName": "Olivier",
+        "lastName": "GOY",
+        "skills": [
+            {
+                "titleSkill": "Languages",
+                "altSkill": "logo code",
+                "listSkills": ["Javascript", "NodeJs", "JQuery", "Php", "Html5 - Css3"],
+                "logoSkillUrl" : "http://localhost:3000/static/media/code.2e0870f212ca633e2bf9.png"
+            },
+            {
+                "titleSkill": "Frameworks",
+                "altSkill": "logo framework",
+                "listSkills": ["React", "Angular", "ExpressJs"],
+                "logoSkillUrl" : "http://localhost:3000/static/media/algorithme.796e34bc967e2d25d794.png"
+            },  
+            {
+                "titleSkill": "Datas",
+                "altSkill": "logo data",
+                "listSkills": ["MongoDB", "MySQL"],
+                "logoSkillUrl" : "http://localhost:3000/static/media/bases-de-donnees.3cfabcdb9c624c939aa4.png"
+            },
+            {
+                "titleSkill": "Outils",
+                "altSkill": "logo outil",
+                "listSkills": ["VSCode - PhpStorm", "Git - GitHub", "Bootstrap - Materialize", "Brew - Npm", "Trello - Notion", "Postman", "Slack"],
+                "logoSkillUrl" : "http://localhost:3000/static/media/programmation.d7cc9e8d06b323a6e34e.png"
+            }
+        ]
+    }
+]
