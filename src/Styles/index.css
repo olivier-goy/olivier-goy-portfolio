@@ -11,6 +11,13 @@ h2 {
   color: #94D25A;
   margin: 0;
 }
+h3 {
+  color: #94D25A;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
