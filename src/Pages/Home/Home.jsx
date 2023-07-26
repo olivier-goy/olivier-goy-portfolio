@@ -17,13 +17,19 @@ function Home() {
 
   const [isDataLoading, setIsDataLoading] = useState(false)
   const [isProfilData, setIsProfilData] = useState([])
+  const [isRealizationData, setIsRealizationData] = useState([])
 
   useEffect(() => {
     async function fetchProfil() {
       try {
-        const response = await fetch('http://localhost:3000/Data/profil.json')
-        const profilsData = await response.json()
+        const responseProfil = await fetch('http://localhost:3000/Data/profil.json')
+        const profilsData = await responseProfil.json()
         await profilsData.map(profilData => setIsProfilData(profilData))
+
+        const responseRealization = await fetch('http://localhost:3000/Data/realization.json')
+        const realizationsData = await responseRealization.json()
+        setIsRealizationData(realizationsData)
+        
         setIsDataLoading(true)
       } catch (error) {
         console.error(error)
@@ -34,6 +40,7 @@ function Home() {
 
   return isDataLoading ? (
     <div className="home">
+      {console.log("test", isRealizationData)}
       <section>
         <Banner />
       </section>
@@ -64,9 +71,9 @@ function Home() {
       <section>
         <div className="sectionRealization">
           <h2>MES REALISATIONS</h2>
+      <Card />
         </div>
       </section>
-      <Card />
       <CarouselProject />
       <CarouselProjectImage />
       <Modal />
