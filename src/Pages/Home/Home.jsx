@@ -19,7 +19,7 @@ function Home() {
   useEffect(() => {
     async function fetchProfil() {
       try {
-        const response = await fetch('https://www.oliviergoy.dev/Data/profil.json')
+        const response = await fetch('https://oliviergoy.dev/Data/profil.json')
         const profilData = await response.json()
         setIsProfilData(profilData)
       } catch (error) {

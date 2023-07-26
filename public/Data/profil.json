@@ -8,25 +8,25 @@
                 "titleSkill": "Languages",
                 "altSkill": "logo code",
                 "listSkills": ["Javascript", "Php", "Html5 - Css3"],
-                "logoSkillUrl" : "https://www.oliviergoy.dev/Images/code.png"
+                "logoSkillUrl" : "https://oliviergoy.dev/Images/code.png"
             },
             {
                 "titleSkill": "Frameworks",
                 "altSkill": "logo framework",
                 "listSkills": ["React", "Angular", "ExpressJs"],
-                "logoSkillUrl" : "https://www.oliviergoy.dev/Images/algorithme.png"
+                "logoSkillUrl" : "https://oliviergoy.dev/Images/algorithme.png"
             },  
             {
                 "titleSkill": "Datas",
                 "altSkill": "logo data",
                 "listSkills": ["MongoDB", "MySQL"],
-                "logoSkillUrl" : "https://www.oliviergoy.dev/Images/bases-de-donnees.png"
+                "logoSkillUrl" : "https://oliviergoy.dev/Images/bases-de-donnees.png"
             },
             {
                 "titleSkill": "Outils",
                 "altSkill": "logo outil",
                 "listSkills": ["VSCode - PhpStorm", "Git - GitHub", "Bootstrap - Materialize", "JQuery", "NodeJs", "Brew - Npm", "Trello - Notion", "Postman", "Slack"],
-                "logoSkillUrl" : "https://www.oliviergoy.dev/Images/programmation.png"
+                "logoSkillUrl" : "https://oliviergoy.dev/Images/programmation.png"
             }
         ]
     }
