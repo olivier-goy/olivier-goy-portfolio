@@ -1,5 +1,4 @@
 import './Home.css';
-import Card from '../../Components/Card/Card';
 import CarouselProject from "../../Components/Carousel/CarouselProject/CarouselProject";
 import CarouselProjectImage from "../../Components/Carousel/CarouselProjectImage/CarouselProjectImage"
 import Modal from '../../Components/Modal/Modal';
@@ -71,10 +70,9 @@ function Home() {
       <section>
         <div className="sectionRealization">
           <h2>MES REALISATIONS</h2>
-      <Card />
+      <CarouselProject />
         </div>
       </section>
-      <CarouselProject />
       <CarouselProjectImage />
       <Modal />
       <Tag />

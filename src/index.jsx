@@ -14,7 +14,9 @@ root.render(
         <Header />
       </header>
     </BrowserRouter>
-    <RouterProvider router={routes} />
+    <main>
+      <RouterProvider router={routes} />
+    </main>
     <footer>
       <Footer />
     </footer>
