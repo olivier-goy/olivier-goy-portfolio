@@ -4,7 +4,7 @@ import CarouselProject from "../../Components/Carousel/CarouselProject/CarouselP
 import CarouselProjectImage from "../../Components/Carousel/CarouselProjectImage/CarouselProjectImage"
 import Modal from '../../Components/Modal/Modal';
 import Tag from '../../Components/Tag/Tag';
-import Presentation from '../../Components/Presentation/Presentation';
+import Banner from '../../Components/Banner/Banner';
 import Skill from '../../Components/Skill/Skill';
 import { useEffect, useState } from 'react';
 
@@ -32,7 +32,7 @@ function Home() {
   return (
     <div className="home">
       <section>
-        <Presentation />
+        <Banner />
       </section>
       <section>
         <div id="skills" className="skillSection">
