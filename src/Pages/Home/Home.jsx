@@ -31,7 +31,6 @@ function Home() {
 
   return (
     <div className="home">
-      {console.log(isProfilData[0])}
       <section>
         <Presentation />
       </section>

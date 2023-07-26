@@ -7,8 +7,32 @@
     font-size: 50px;
     font-weight: 800;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 80px;
 }
 .divisionSkill {
     display: flex;
+}
+
+@media (max-width: 1250px) {
+    .skillSection h2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 900px) {
+    .skillSection h2 {
+        font-size: 35px;
+        padding-top: 70px;
+    }
+}
+@media (max-width: 700px) {
+    .skillSection h2 {
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    .divisionSkill {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
 }
