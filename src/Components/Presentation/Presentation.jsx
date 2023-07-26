@@ -5,8 +5,8 @@ import "./Presentation.css"
 
 function Presentation() {
     return (
-        <div>
-            <div className="homeFirstSection">
+        <div className="presentation">
+            <div className="banner">
                 <div className="sectionImage">
                     <img src={imageProfil} alt="Représentation profil Olivier GOY développeur web" />
                 </div>
@@ -20,7 +20,7 @@ function Presentation() {
                     </h1>
                 </div>
             </div>
-            <div className="iconFirstSection">
+            <div className="iconBanner">
                 <p>Poursuivre</p>
                 <FontAwesomeIcon icon={faArrowDown} size="2x" />
             </div>

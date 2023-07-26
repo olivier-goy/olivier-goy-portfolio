@@ -1,6 +1,9 @@
-.homeFirstSection {
-    display: flex;
-    width: 100%;
+.banner {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  height: calc(94vh - 80px);
+  min-height: 815px;
   }
   .sectionImage {
     flex: 1;
@@ -30,7 +33,7 @@
     color: gray;
     font-size: 45px;
   }
-  .iconFirstSection {
+  .iconBanner {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -39,7 +42,7 @@
     -webkit-animation: 5s animationIcon infinite;
     animation: 5s animationIcon infinite;
   }
-  .iconFirstSection p {
+  .iconBanner p {
     font-size: 16px;
     font-weight: 700;
     margin: 5px;
@@ -59,11 +62,19 @@
     }
   }
   @media (max-width: 1300px) {
+    .banner {
+      height: calc(94vh - 60px);
+      }
     h1 {
       font-size: 40px;
     }
     .spanTitle {
       font-size: 35px;
+    }
+  }
+  @media (max-width: 1050px) { 
+    .banner {
+      height: calc(94vh - 50px);
     }
   }
   @media (max-width: 950px) {
@@ -76,17 +87,20 @@
     }
   }
   @media (max-width: 700px) {
+    .banner {
+      height: calc(89vh - 50px);
+    }
     h1 {
       font-size: 40px;
     }
     .spanTitle {
       font-size: 35px;
     }
-    .homeFirstSection {
+    .banner {
       display: block;
       width: 100%;
     }
-    .iconFirstSection {
+    .iconBanner {
       margin-top: 50px;
     }
   }
