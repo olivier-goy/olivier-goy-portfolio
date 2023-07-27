@@ -27,7 +27,7 @@ function Home() {
         const responseRealization = await fetch('http://localhost:3000/Data/realization.json')
         const realizationsData = await responseRealization.json()
         setIsRealizationData(realizationsData)
-        
+
         setIsDataLoading(true)
       } catch (error) {
         console.error(error)
@@ -47,7 +47,7 @@ function Home() {
           <h2>MES COMPETENCES</h2>
           <div className="divisionSkill">
             {
-                isProfilData.skills.map((profilData, index) => (
+              isProfilData.skills.map((profilData, index) => (
                 < Skill
                   key={profilData + index}
                   logo={profilData.logoSkillUrl}
@@ -69,16 +69,16 @@ function Home() {
       <section>
         <div className="sectionRealization">
           <h2>MES REALISATIONS</h2>
-      <CarouselProject />
+          <CarouselProject realizations={isRealizationData} />
         </div>
       </section>
       <CarouselProjectImage />
       <Modal />
     </div>
   ) : (
-      <div>
-        <p>Chargement de la page</p>
-      </div>
+    <div>
+      <p>Chargement de la page</p>
+    </div>
   );
 }
 
