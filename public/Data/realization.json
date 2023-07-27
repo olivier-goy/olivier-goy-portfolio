@@ -33,7 +33,7 @@
     ],
     "linkGitHub": "https://github.com/olivier-goy/nina-carducci.github.io/tree/optimization",
     "linkWebSite": "https://olivier-goy.github.io/nina-carducci.github.io/",
-    "tools": ["LIGHTHOUSE", "WAVE", "GOOGLE RICH SNIPPET", "GIT", "GITHUB", "VSCODE", "SCHEMA.ORG"]
+    "tools": ["LIGHTHOUSE", "WAVE", "GIT", "GITHUB", "VSCODE", "SCHEMA.ORG"]
   },
   {
     "id": "4",

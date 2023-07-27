@@ -4,6 +4,7 @@ import logoArrowNext from "../../../Assets/fleche-next.png";
 import logoArrowPrev from "../../../Assets/fleche-prev.png";
 
 function CarouselProject({ realizations }) {
+    const threeRealization = realizations.slice(0, 3)
     return (
         <div className="carouselProject">
             <div className="carouselProjectPrev">
@@ -11,14 +12,14 @@ function CarouselProject({ realizations }) {
             </div>
             <div className="carouselProjectMain">
                 {
-                    realizations.map(realization => (
+                    threeRealization.map((realization, index) => (
                         <Card
+                            key={index + realization.title}
                             title={realization.title}
                             tools={realization.tools}
                         />
                     ))
                 }
-
             </div>
             <div className="carouselProjectNext">
                 <img src={logoArrowNext} alt="icon flêche suivante" />

@@ -38,7 +38,6 @@ function Home() {
 
   return isDataLoading ? (
     <div className="home">
-      {console.log("test", isRealizationData)}
       <section>
         <Banner />
       </section>
