@@ -5,7 +5,9 @@
     "description": "Réalisation d'une page d'accueil pour une agence de voyage. Elle a était réaliser uniquement avec HTML et CSS. Design était basé sur une maquette qui provenais de Figma et devait être respondsive sur les trois format d'écran a savoir desktop, tablette, et mobil",
     "imageUrl": "http://localhost:3000/Images/Booki.png",
     "imagesUrl": [
-
+      "http://localhost:3000/Images/Booki.png",
+      "http://localhost:3000/Images/Nina-Carducci.jpeg",
+      "http://localhost:3000/Images/Kasa.png"
     ],
     "linkGitHub": "https://github.com/olivier-goy/Goy_Olivier_2_HTML-CSS_02012023/tree/dev",
     "linkWebSite": "https://olivier-goy.github.io/Goy_Olivier_2_HTML-CSS_02012023/",
@@ -37,9 +39,9 @@
   },
   {
     "id": "4",
-    "title": "",
+    "title": "Test 4",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "http://localhost:3000/Images/Kasa.png",
     "imagesUrl": [
 
     ],
@@ -51,9 +53,9 @@
   },
   {
     "id": "5",
-    "title": "",
+    "title": "Test 5",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "http://localhost:3000/Images/Booki.png",
     "imagesUrl": [
 
     ],
@@ -65,9 +67,9 @@
   },
   {
     "id": "6",
-    "title": "",
+    "title": "Test 6",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "http://localhost:3000/Images/Kasa.png",
     "imagesUrl": [
 
     ],

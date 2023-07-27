@@ -1,11 +1,11 @@
 import Tag from "../Tag/Tag";
 import "./Card.css";
 
-function Card({ title, tools }) {
+function Card({ image, title, tools }) {
     return (
         <div className="card">
             <div className="cardImage">
-
+                <img src={image} alt="" />
             </div>
             <div className="cardDescription">
                 <div className="cardDescriptionTag">
