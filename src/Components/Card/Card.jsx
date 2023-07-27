@@ -1,3 +1,4 @@
+import Tag from "../Tag/Tag";
 import "./Card.css";
 
 function Card() {
@@ -7,7 +8,7 @@ function Card() {
 
             </div>
             <div className="cardDescription">
-
+                <Tag />
             </div>
         </div>
     )

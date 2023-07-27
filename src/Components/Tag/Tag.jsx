@@ -1,8 +1,10 @@
 import "./Tag.css";
 
-function Tag() {
+function Tag({tool}) {
     return (
-        <div>
+        <div className="tag">
+            {tool}
+            HTML5
         </div>
     )
 }

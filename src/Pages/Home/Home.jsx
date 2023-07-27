@@ -2,7 +2,6 @@ import './Home.css';
 import CarouselProject from "../../Components/Carousel/CarouselProject/CarouselProject";
 import CarouselProjectImage from "../../Components/Carousel/CarouselProjectImage/CarouselProjectImage"
 import Modal from '../../Components/Modal/Modal';
-import Tag from '../../Components/Tag/Tag';
 import Banner from '../../Components/Banner/Banner';
 import Skill from '../../Components/Skill/Skill';
 import { useEffect, useState } from 'react';
@@ -75,7 +74,6 @@ function Home() {
       </section>
       <CarouselProjectImage />
       <Modal />
-      <Tag />
     </div>
   ) : (
       <div>

@@ -14,7 +14,7 @@ function CarouselProject() {
                 <Card />
                 <Card />
             </div>
-            <div className="carouselPorjectNext">
+            <div className="carouselProjectNext">
                 <img src={logoArrowNext} alt="icon flêche suivante" />
             </div>
         </div>

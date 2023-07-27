@@ -20,11 +20,11 @@
   display: flex;
   gap: 50px;
 }
-.carouselPorjectNext {
+.carouselProjectNext {
   flex: 1 10%;
   text-align: right;
 }
-.carouselPorjectNext img {
+.carouselProjectNext img {
   width: 90%;
   height: auto;
 }
