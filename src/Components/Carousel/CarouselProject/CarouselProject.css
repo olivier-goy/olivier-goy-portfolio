@@ -1,5 +1,5 @@
 .carouselProject {
-    margin: 80px 0;
+  margin: 80px 0;
   width: 100%;
   height: auto;
   display: flex;
@@ -7,23 +7,24 @@
   align-items: center;
 }
 .carouselProjectPrev {
-  flex: 1 5%;
+  flex: 1 10%;
 }
 .carouselProjectPrev img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 .carouselProjectMain {
-  border: solid 1px rebeccapurple;
-  flex: 1 90%;
+  flex: 1 80%;
   width: 100%;
   height: auto;
+  display: flex;
+  gap: 50px;
 }
 .carouselPorjectNext {
-  flex: 1 5%;
+  flex: 1 10%;
   text-align: right;
 }
 .carouselPorjectNext img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
