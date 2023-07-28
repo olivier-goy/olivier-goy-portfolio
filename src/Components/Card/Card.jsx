@@ -16,7 +16,7 @@ const customStyles = {
     },
   };
 
-function Card({ realizationId, image, title, tools }) {
+function Card({ realization }) {
 
     const [modalIsOpen, setIsOpen] = useState(false);
 
@@ -32,12 +32,12 @@ function Card({ realizationId, image, title, tools }) {
         <div className="carouselProjectMain">
             <div className="card" onClick={openModal}>
                 <div className="cardImage">
-                    <img src={image} alt="" />
+                    <img src={realization.imageUrl} alt="" />
                 </div>
                 <div className="cardDescription">
                     <div className="cardDescriptionTag">
                         {
-                            tools.map((tool, index) => (
+                            realization.tools.map((tool, index) => (
                                 <Tag
                                     key={index + tool}
                                     tool={tool}
@@ -46,19 +46,18 @@ function Card({ realizationId, image, title, tools }) {
                         }
                     </div>
                     <div className="cardDescriptionTitle">
-                        <h3>{title}</h3>
+                        <h3>{realization.title}</h3>
                     </div>
                 </div>
             </div>
             <div>
-                {console.log(modalIsOpen)}
                 <Modal
                     isOpen={modalIsOpen}
                     onRequestClose={closeModal}
                     style={customStyles}
                 >
-                    <ModalRealization />
-                    <h2>{realizationId}</h2>
+                    <ModalRealization Realization={realization} />
+                    <h2>{realization.id}</h2>
                     <button onClick={closeModal}>close</button>
                 </Modal>
             </div>

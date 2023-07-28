@@ -27,7 +27,6 @@ function CarouselProject({ realizations }) {
 
     return (
         <div className="carouselProject">
-            {console.log(isIndex)}
             <div className="carouselProjectPrev" onClick={prevIndex}>
                 <img src={logoArrowPrev} alt="icon flêche précédente" />
             </div>
@@ -36,10 +35,7 @@ function CarouselProject({ realizations }) {
                     threeRealization.map((realization, index) => (
                         <Card
                             key={index + realization.title}
-                            realizationId={realization.id}
-                            image={realization.imageUrl}
-                            title={realization.title}
-                            tools={realization.tools}
+                            realization={realization}
                         />
                     ))
                 }
