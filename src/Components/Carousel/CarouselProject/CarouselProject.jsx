@@ -36,6 +36,7 @@ function CarouselProject({ realizations }) {
                     threeRealization.map((realization, index) => (
                         <Card
                             key={index + realization.title}
+                            realizationId={realization.id}
                             image={realization.imageUrl}
                             title={realization.title}
                             tools={realization.tools}

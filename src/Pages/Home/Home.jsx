@@ -1,7 +1,5 @@
 import './Home.css';
 import CarouselProject from "../../Components/Carousel/CarouselProject/CarouselProject";
-import CarouselProjectImage from "../../Components/Carousel/CarouselProjectImage/CarouselProjectImage"
-import Modal from '../../Components/Modal/Modal';
 import Banner from '../../Components/Banner/Banner';
 import Skill from '../../Components/Skill/Skill';
 import { useEffect, useState } from 'react';
@@ -66,13 +64,11 @@ function Home() {
         />
       </section>
       <section>
-        <div className="sectionRealization">
+        <div id="realizations" className="sectionRealization">
           <h2>MES REALISATIONS</h2>
           <CarouselProject realizations={isRealizationData} />
         </div>
       </section>
-      <CarouselProjectImage />
-      <Modal />
     </div>
   ) : (
     <div>

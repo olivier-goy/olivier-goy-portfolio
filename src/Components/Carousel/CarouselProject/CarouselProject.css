@@ -8,6 +8,7 @@
 }
 .carouselProjectPrev {
   flex: 1 10%;
+  cursor: pointer;
 }
 .carouselProjectPrev img {
   width: 80%;
@@ -23,6 +24,7 @@
 .carouselProjectNext {
   flex: 1 10%;
   text-align: right;
+  cursor: pointer;
 }
 .carouselProjectNext img {
   width: 80%;
