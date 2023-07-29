@@ -139,6 +139,9 @@
     }
 }
 @media (max-width: 600px) {
+    .modalTitle h2 {
+        font-size: 27px;
+      }
     .modalCarousel {
         width: 100%;
         margin: auto;
