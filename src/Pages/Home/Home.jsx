@@ -1,12 +1,9 @@
 import './Home.css';
-import Card from '../../Components/Card/Card';
 import CarouselProject from "../../Components/Carousel/CarouselProject/CarouselProject";
-import CarouselProjectImage from "../../Components/Carousel/CarouselProjectImage/CarouselProjectImage"
-import Modal from '../../Components/Modal/Modal';
-import Tag from '../../Components/Tag/Tag';
-import Presentation from '../../Components/Presentation/Presentation';
+import Banner from '../../Components/Banner/Banner';
 import Skill from '../../Components/Skill/Skill';
 import { useEffect, useState } from 'react';
+import About from '../../Components/About/About';
 
 
 
@@ -14,7 +11,9 @@ import { useEffect, useState } from 'react';
 
 function Home() {
 
+  const [isDataLoading, setIsDataLoading] = useState(false)
   const [isProfilData, setIsProfilData] = useState([])
+  const [isRealizationData, setIsRealizationData] = useState([])
 
   useEffect(() => {
     async function fetchProfil() {
@@ -29,18 +28,17 @@ function Home() {
     fetchProfil()
   }, [])
 
-  return (
+  return isDataLoading ? (
     <div className="home">
       <section>
-        <Presentation />
+        <Banner />
       </section>
       <section>
         <div id="skills" className="skillSection">
           <h2>MES COMPETENCES</h2>
           <div className="divisionSkill">
             {
-              isProfilData.map(skillProfil => (
-                skillProfil.skills.map((profilData, index) => (
+              isProfilData.skills.map((profilData, index) => (
                 < Skill
                   key={profilData + index}
                   logo={profilData.logoSkillUrl}
@@ -49,16 +47,26 @@ function Home() {
                   skillsList={profilData.listSkills}
                 />
               ))
-              ))
             }
           </div>
         </div>
       </section>
-      <Card />
-      <CarouselProject />
-      <CarouselProjectImage />
-      <Modal />
-      <Tag />
+      <section>
+        <About
+          descriptionText={isProfilData.description}
+          trainningText={isProfilData.trainning}
+        />
+      </section>
+      <section>
+        <div id="realizations" className="sectionRealization">
+          <h2>MES REALISATIONS</h2>
+          <CarouselProject realizations={isRealizationData} />
+        </div>
+      </section>
+    </div>
+  ) : (
+    <div>
+      <p>Chargement de la page</p>
     </div>
   );
 }

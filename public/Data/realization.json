@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "BOOKI",
+    "description": "Réalisation d'une page d'accueil pour une agence de voyage. Elle a était réaliser uniquement avec HTML et CSS. Design était basé sur une maquette qui provenais de Figma et devait être respondsive sur les trois format d'écran a savoir desktop, tablette, et mobil",
+    "imageUrl": "http://localhost:3000/Images/Booki.png",
+    "imagesUrl": [
+      "http://localhost:3000/Images/Booki.png",
+      "http://localhost:3000/Images/Nina-Carducci.jpeg",
+      "http://localhost:3000/Images/Kasa.png"
+    ],
+    "linkGitHub": "https://github.com/olivier-goy/Goy_Olivier_2_HTML-CSS_02012023/tree/dev",
+    "linkWebSite": "https://olivier-goy.github.io/Goy_Olivier_2_HTML-CSS_02012023/",
+    "tools": ["HTML", "CSS", "FIGMA", "VSCODE"]
+  },
+  {
+    "id": "2",
+    "title": "SOPHIE BLUEL",
+    "description": "Mise en place d'une dynamisation d'un site en ce basant sur du code déjà existant en Front-end et Back-end. le Projet était de donner la possibiler à l'administrateur de ce connecter à sont compte et par la même occation de si déconnecter en toute sécuriter. l'Administrateur authentifier devez avoir la possibiliter de supprimez des projet de sont portefolio mais aussi d'en créer d'autre via un formulaire. Enfin le visiteur du site devais avoir la possibiliter de filtrer les projets présent dans la gallerie.",
+    "imageUrl": "http://localhost:3000/Images/Sophie-Bluel.png",
+    "imagesUrl": [
+
+    ],
+    "linkGitHub": "https://github.com/olivier-goy/Portfolio-architecte-sophie-bluel",
+    "linkWebSite": "",
+    "tools": ["JAVASCRIPT", "HTML", "CSS", "VSCODE", "GIT", "GITHUB"]
+  },
+  {
+    "id": "3",
+    "title": "NINA CARDUCCI",
+    "description": "Pour ce projet il falut Débugger la partie carousel de la gallerie qui ne fonctionné pas ainsi que le changement d'état du filtre. Les images on était entièrement retravailler sur tout le site en therme de format (passage en webp et en taille) pour optimiser le chargement et améliorer le score de performance. Une grande revu du code pour enlever tout les oublies et de les mauvaises pratique pour permetre un meilleur SEO. Changement de certain  élement du site pour palier le problème d'accéssibilité.",
+    "imageUrl": "http://localhost:3000/Images/Nina-Carducci.jpeg",
+    "imagesUrl": [
+
+    ],
+    "linkGitHub": "https://github.com/olivier-goy/nina-carducci.github.io/tree/optimization",
+    "linkWebSite": "https://olivier-goy.github.io/nina-carducci.github.io/",
+    "tools": ["LIGHTHOUSE", "WAVE", "GIT", "GITHUB", "VSCODE", "SCHEMA.ORG"]
+  },
+  {
+    "id": "4",
+    "title": "Test 4",
+    "description": "",
+    "imageUrl": "http://localhost:3000/Images/Kasa.png",
+    "imagesUrl": [
+
+    ],
+    "linkGitHub": "",
+    "linkWebSite": "https://olivier-goy.github.io/nina-carducci.github.io/",
+    "tools": [
+
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Test 5",
+    "description": "",
+    "imageUrl": "http://localhost:3000/Images/Booki.png",
+    "imagesUrl": [
+
+    ],
+    "linkGitHub": "",
+    "linkWebSite": "",
+    "tools": [
+
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Test 6",
+    "description": "",
+    "imageUrl": "http://localhost:3000/Images/Kasa.png",
+    "imagesUrl": [
+
+    ],
+    "linkGitHub": "",
+    "linkWebSite": "",
+    "tools": [
+
+    ]
+  }
+]

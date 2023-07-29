@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div className="footer">
             <div className="footerLink">
-                <a href="mailto:olivier.goy.37@gmail.com"><img src={logoEmail} alt="logo email" /></a>
+                <a href="mailto:contact@oliviergoy.dev"><img src={logoEmail} alt="logo email" /></a>
                 <a href="https://github.com/olivier-goy" className="logoGithub" target="_blank" rel="noreferrer"><img src={logoGithub} alt="logo GitHub" /></a>
                 <a href="https://www.linkedin.com/in/olivier-goy/" target="_blank" rel="noreferrer"><img src={logoLinkedin} alt="logo Linkedin" /></a>
             </div>

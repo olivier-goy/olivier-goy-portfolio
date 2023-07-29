@@ -29,13 +29,13 @@ function Header() {
                         <a href="#abouts" className="pending">
                             A-PROPOS
                         </a>
-                        <a href="#Realisations" className="pending">
+                        <a href="#realizations" className="pending">
                             REALISATIONS
                         </a>
                         <a href={cv} target="_blank" rel="noreferrer" className="pending">
                             MON CV
                         </a>
-                        <a href="mailto:olivier.goy.37@gmail.com" className="pending">
+                        <a href="mailto:contact@oliviergoy.dev" className="pending">
                             CONTACT
                         </a>
                         <div onClick={() => setIsOpenMenu(!isOpenMenu)} className="displayMenu pending">
@@ -67,7 +67,7 @@ function Header() {
                         <a href={cv} target="_blank" rel="noreferrer" onClick={() => setIsOpenMenu(!isOpenMenu)} className="linkMenu">
                             MON CV
                         </a>
-                        <a href="mailto:olivier.goy.37@gmail.com" onClick={() => setIsOpenMenu(!isOpenMenu)} className="linkMenu">
+                        <a href="mailto:contact@oliviergoy.dev" onClick={() => setIsOpenMenu(!isOpenMenu)} className="linkMenu">
                             CONTACT
                         </a>
                     </div>

@@ -11,6 +11,8 @@ body {
 }
 h2 {
   color: #94D25A;
+  font-size: 50px;
+  font-weight: 800;
   margin: 0;
 }
 h3 {
