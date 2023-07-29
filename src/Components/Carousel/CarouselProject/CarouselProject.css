@@ -19,7 +19,7 @@
   width: 100%;
   height: auto;
   display: flex;
-  gap: 40px;
+  gap: 20px;
 }
 .carouselProjectNext {
   flex: 1 10%;
@@ -29,4 +29,15 @@
 .carouselProjectNext img {
   width: 80%;
   height: auto;
+}
+
+@media (max-width: 1600px) {
+  .carouselProjectMain {
+    gap: 15px;
+  }
+}
+@media (max-width: 1500px) {
+  .carouselProjectMain {
+    gap: 10px;
+  }
 }

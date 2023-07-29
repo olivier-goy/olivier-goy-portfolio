@@ -2,28 +2,54 @@ import "./CarouselProject.css";
 import Card from "../../Card/Card"
 import logoArrowNext from "../../../Assets/fleche-next.png";
 import logoArrowPrev from "../../../Assets/fleche-prev.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function CarouselProject({ realizations }) {
 
     const [isIndex, setIsIndex] = useState(0)
+    const [windowSize, setWindowSize] = useState(getSize)
+
+    function getSize() {
+        return window.innerWidth
+    }
+
+    useEffect(() => {
+        function handleResize() {
+            setWindowSize(getSize());
+        }
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    })
 
     function nextIndex() {
-        if (isIndex + 3 === realizations.length) {
+        if (windowSize <= 850) {
+            if (isIndex === realizations.length - 1) {
+                return setIsIndex(0)
+            }
+        } else if (windowSize <= 1300) {
+            if (isIndex + 2 === realizations.length) {
+                return setIsIndex(0)
+            }
+        } else if (isIndex + 3 === realizations.length) {
             return setIsIndex(0)
-        } else {
-
-            setIsIndex(isIndex + 1)
         }
+        setIsIndex(isIndex + 1)
     }
 
     function prevIndex() {
         if (isIndex === 0) {
+            if (windowSize <= 850) {
+                return setIsIndex(realizations.length - 1)
+            }
+            if (windowSize <= 1300) {
+                return setIsIndex(realizations.length - 2)
+            }
             return setIsIndex(realizations.length - 3)
         }
         setIsIndex(isIndex - 1)
     }
-    const threeRealization = realizations.slice(isIndex, isIndex + 3)
+
+    const cardRealization = windowSize <= 850 ? [realizations[isIndex]] : windowSize <= 1300 ? realizations.slice(isIndex, isIndex + 2) : realizations.slice(isIndex, isIndex + 3)
 
     return (
         <div className="carouselProject">
@@ -32,7 +58,7 @@ function CarouselProject({ realizations }) {
             </div>
             <div className="carouselProjectMain">
                 {
-                    threeRealization.map((realization, index) => (
+                    cardRealization.map((realization, index) => (
                         <Card
                             key={index + realization.title}
                             realization={realization}
