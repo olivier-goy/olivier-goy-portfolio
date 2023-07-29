@@ -43,7 +43,7 @@
     cursor: pointer;
   }
   .prevCarouselStyle img {
-    max-width: 10%;
+    max-width: 25%;
   }
   .nextCarouselStyle {
     margin-right: 24px;
@@ -54,7 +54,7 @@
     cursor: pointer;
   }
   .nextCarouselStyle img {
-    max-width: 10%;
+    max-width: 25%;
   }
   @media (max-width: 1250px) {
     .carouselStyle {
@@ -69,10 +69,15 @@
   @media (max-width: 700px) {
     .carouselStyle {
       margin-top: 30px;
-      height: 155px;
+      height: 200px;
       border-radius: 10px;
     }
     .navCarousel span {
       display: none;
+    }
+  }
+  @media (max-width: 600px) {
+    .carouselStyle {
+      border-radius: 0;
     }
   }

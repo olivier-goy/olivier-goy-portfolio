@@ -88,7 +88,6 @@
       }
     .modalCarousel {
         width: 85%;
-        margin: auto;
     }
     .modalDescription {
         padding: 10px 50px 20px 50px;
@@ -144,7 +143,6 @@
       }
     .modalCarousel {
         width: 100%;
-        margin: auto;
     }
     .modalDescription {
         padding: 16px 10px 26px 10px;
