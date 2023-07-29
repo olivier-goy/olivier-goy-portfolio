@@ -6,7 +6,6 @@ import ReactModal from 'react-modal';
 import Tag from "../Tag/Tag";
 import "./Card.css";
 
-
 const customStyles = {
     content: {
         top: '50%',

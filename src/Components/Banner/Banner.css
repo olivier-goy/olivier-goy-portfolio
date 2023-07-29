@@ -2,7 +2,7 @@
   display: flex;
   margin: 0;
   width: 100%;
-  height: calc(94vh - 80px);
+  height: calc(95vh - 80px);
   min-height: 815px;
 }
 .sectionImage {
@@ -112,5 +112,11 @@ h1 {
   }
   .spanTitle {
     font-size: 25px;
+  }
+}
+@media (max-height: 900px) {
+  .banner {
+    height: calc(80vh - 50px);
+    min-height: 737px;
   }
 }
