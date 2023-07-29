@@ -19,8 +19,15 @@ function Home() {
     async function fetchProfil() {
       try {
         const response = await fetch('https://oliviergoy.dev/Data/profil.json')
-        const profilData = await response.json()
-        setIsProfilData(profilData)
+        const profilsData = await response.json()
+        await profilsData.map(profilData => setIsProfilData(profilData))
+
+
+        const responseRealization = await fetch('https://oliviergoy.dev/Data/realization.json')
+        const realizationsData = await responseRealization.json()
+        setIsRealizationData(realizationsData)
+
+        setIsDataLoading(true)
       } catch (error) {
         console.error(error)
       }
