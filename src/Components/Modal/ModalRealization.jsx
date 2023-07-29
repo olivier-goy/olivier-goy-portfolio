@@ -44,7 +44,7 @@ function ModalRealization({ realization }) {
                                 </div>
                             </a>
                         </div>
-                    ) : ("")
+                    ) : (<div className="link"></div>)
                 }
                 {
                     realization.linkWebSite ? (
@@ -57,7 +57,7 @@ function ModalRealization({ realization }) {
                                 <FontAwesomeIcon icon={faGlobe} size="4x" />
                                 </div>
                             </a>
-                        </div>) : ("")
+                        </div>) : (<div className="link"></div>)
                 }
             </div>
         </div>
