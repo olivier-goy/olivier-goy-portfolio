@@ -28,19 +28,23 @@
   overflow: hidden;
 }
 .cardImage img {
-    overflow: hidden;
+  overflow: hidden;
 }
 .cardDescription {
+  display: flex;
+  flex-direction: column;
   padding: 10% 5%;
   width: 90%;
   height: 35%;
 }
 .cardDescriptionTag {
+  flex: 1 50%;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
 }
 .cardDescriptionTitle {
+  flex: 1 50%;
   margin-top: 50px;
 }
 .cardDescriptionTitle h3 {
@@ -50,7 +54,7 @@
 }
 
 .modalCrossClose {
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   top: 4px;
   right: 10px;
