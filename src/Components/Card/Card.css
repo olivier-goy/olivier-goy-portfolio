@@ -48,3 +48,11 @@
   font-weight: 800;
   color: #262626;
 }
+
+.modalCrossClose {
+  color: #FFFFFF;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  cursor: pointer;
+}

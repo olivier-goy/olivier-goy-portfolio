@@ -1,20 +1,25 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import ModalRealization from "../Modal/ModalRealization";
-import Modal from 'react-modal';
+import ReactModal from 'react-modal';
 import Tag from "../Tag/Tag";
 import "./Card.css";
 
+
 const customStyles = {
     content: {
-      top: '50%',
-      left: '50%',
-      right: 'auto',
-      bottom: 'auto',
-      marginRight: '-50%',
+        top: '50%',
+        left: '50%',
+        width: "60%",
+        height: "90%",
+        marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
-      borderRadius: '20px'
+        borderRadius: '10px',
+        border: "3px solid #94D25A",
+        padding: "0"
     },
-  };
+};
 
 function Card({ realization }) {
 
@@ -51,15 +56,14 @@ function Card({ realization }) {
                 </div>
             </div>
             <div>
-                <Modal
+                <ReactModal
                     isOpen={modalIsOpen}
                     onRequestClose={closeModal}
                     style={customStyles}
                 >
-                    <ModalRealization Realization={realization} />
-                    <h2>{realization.id}</h2>
-                    <button onClick={closeModal}>close</button>
-                </Modal>
+                    <FontAwesomeIcon className="modalCrossClose" onClick={closeModal} icon={faXmark} size="2x" />
+                    <ModalRealization realization={realization} />
+                </ReactModal>
             </div>
         </div>
 
