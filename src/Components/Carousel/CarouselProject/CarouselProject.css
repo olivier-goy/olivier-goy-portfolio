@@ -19,7 +19,7 @@
   width: 100%;
   height: auto;
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 .carouselProjectNext {
   flex: 1 10%;

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import ModalRealization from "../Modal/ModalRealization";
+import Modal from "../Modal/Modal";
 import ReactModal from 'react-modal';
 import Tag from "../Tag/Tag";
 import "./Card.css";
@@ -60,7 +60,7 @@ function Card({ realization }) {
                     style={customStyles}
                 >
                     <FontAwesomeIcon className="modalCrossClose" onClick={closeModal} icon={faXmark} size="2x" />
-                    <ModalRealization realization={realization} />
+                    <Modal realization={realization} />
                 </ReactModal>
             </div>
         </div>
