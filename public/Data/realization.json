@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "BOOKI",
-    "description": "Réalisation d'une page d'accueil pour une agence de voyage. Elle a était réaliser uniquement avec HTML et CSS. Design était basé sur une maquette qui provenais de Figma et devait être respondsive sur les trois format d'écran a savoir desktop, tablette, et mobil",
+    "description": "Projet d'étude dans le cardre de ma formation OpenClassrooms. Création d'une page d'accueil pour une agence de voyage en HTML & CSS uniquement. L'intégration a était réalisé depuis une maquette présente sur Figma et comporter une partie responsive pour les format d'écran descktop, tablette, mobile. Parmis les pré-requis il y avait l'utilisation de l'IDE VSCode.",
     "imageUrl": "http://localhost:3000/Images/Booki.png",
     "imagesUrl": [
       "http://localhost:3000/Images/Booki.png",
@@ -17,7 +17,7 @@
     "id": "2",
     "title": "SOPHIE BLUEL",
     "description": "Mise en place d'une dynamisation d'un site en ce basant sur du code déjà existant en Front-end et Back-end. le Projet était de donner la possibiler à l'administrateur de ce connecter à sont compte et par la même occation de si déconnecter en toute sécuriter. l'Administrateur authentifier devez avoir la possibiliter de supprimez des projet de sont portefolio mais aussi d'en créer d'autre via un formulaire. Enfin le visiteur du site devais avoir la possibiliter de filtrer les projets présent dans la gallerie.",
-    "imageUrl": "http://localhost:3000/Images/Sophie-Bluel.png",
+    "imageUrl": "",
     "imagesUrl": [
 
     ],
@@ -67,16 +67,14 @@
   },
   {
     "id": "6",
-    "title": "Test 6",
-    "description": "",
-    "imageUrl": "http://localhost:3000/Images/Kasa.png",
+    "title": "MON PORTFOLIO",
+    "description": "Projet d'étude dans le cardre de ma formation OpenClassrooms. J'ai réaliser mon portfolio pour me rendre visible auprès des recruteurs. Dans ce projet j'ai mis à jour mon CV et aussi créer carte mental qui m'a permis de déterminer ce que je voulais montrer. Une maquette sur Figma à était réaliser par moi même pour déterminer le design que je souhaiter et pour le code j'ai choisi REACT pour la réalisation de mon code. Enfin j'ai acheter est mis en place un nom de domaine ainsi qu'une adresse mail professionnel grâce à OVH et pour l'hêbergement j'ai choisi Vercel",
+    "imageUrl": "http://localhost:3000/Images/MonPortfolio/portfolio.webp",
     "imagesUrl": [
 
     ],
-    "linkGitHub": "",
-    "linkWebSite": "",
-    "tools": [
-
-    ]
+    "linkGitHub": "https://github.com/olivier-goy/olivier-goy-portfolio",
+    "linkWebSite": "https://oliviergoy.dev/",
+    "tools": ["REACT", "JAVASCRIPT", "FIGMA", "GIT", "GITHUB", "VERCEL"]
   }
 ]

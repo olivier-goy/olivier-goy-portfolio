@@ -41,3 +41,8 @@
     gap: 10px;
   }
 }
+@media (max-width: 850px) {
+  .carouselProjectMain {
+    gap: 00px;
+  }
+}
