@@ -32,7 +32,7 @@ function Card({ realization }) {
     }
 
     return (
-        <div className="carouselProjectMain">
+        <div className="cardProject">
             <div className="card" onClick={openModal}>
                 <div className="cardImage">
                     <img src={realization.imageUrl} alt="" />

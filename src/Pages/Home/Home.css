@@ -32,12 +32,6 @@
     font-size: 35px;
   }
 }
-@media (max-width: 850px) {
-  .sectionRealization {
-    margin: auto;
-    width: 75%;
-  }
-}
 @media (max-width: 700px) {
   .skillSection h2 {
     font-size: 40px;
@@ -51,15 +45,5 @@
   }
   .sectionRealization h2 {
     font-size: 40px;
-  }
-}
-@media (max-width: 650px) {
-  .sectionRealization {
-    width: 90%;
-  }
-}
-@media (max-width: 500px) {
-  .sectionRealization {
-    width: 100%;
   }
 }
