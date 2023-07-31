@@ -13,10 +13,11 @@
     font-size: 40px;
     font-weight: 800;
 }
-.skill p {
+.skill h4 {
     color: #FFFFFF;
     font-size: 30px;
     margin-top: 10px;
+    margin-bottom: 0;
 }
 
 @media (max-width: 1250px) {
