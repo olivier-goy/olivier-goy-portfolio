@@ -10,7 +10,7 @@ function CarouselProject({ realizations }) {
     const [windowSize, setWindowSize] = useState(getSize)
 
     function getSize() {
-        return window.innerWidth
+        return window.visualViewport.width
     }
 
     useEffect(() => {
