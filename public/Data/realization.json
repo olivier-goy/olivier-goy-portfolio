@@ -3,7 +3,7 @@
     "id": "1",
     "title": "BOOKI",
     "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Création d'une page d'accueil pour une agence de voyage en HTML & CSS uniquement. L'intégration a était réalisé depuis une maquette présente sur Figma et comporter une partie responsive pour les format d'écran descktop, tablette, mobile. Parmis les pré-requis il y avait l'utilisation de l'IDE VSCode.",
-    "imageUrl": "http://localhost:3000/Images/Booki/Booki.webp",
+    "imageUrl": "https://oliviergoy.dev/Images/Booki/Booki.webp",
     "imagesUrl": [
       "https://oliviergoy.dev/Images/Booki/FirstImageBooki.webp",
       "https://oliviergoy.dev/Images/Booki/TwoImageBooki.webp",
