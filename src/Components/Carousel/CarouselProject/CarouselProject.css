@@ -10,6 +10,7 @@
   cursor: pointer;
 }
 .carouselProjectPrev img {
+  opacity: 0.60;
   width: 80%;
   height: auto;
 }
@@ -24,6 +25,7 @@
   cursor: pointer;
 }
 .carouselProjectNext img {
+  opacity: 0.60;
   width: 80%;
   height: auto;
 }
@@ -45,8 +47,8 @@
   }
   .carouselProjectPrev img {
     width: 40%;
-   }
-   .carouselProjectNext img {
+  }
+  .carouselProjectNext img {
     width: 40%;
   }
 }
@@ -57,8 +59,8 @@
   }
   .carouselProjectPrev img {
     width: 50%;
-   }
-   .carouselProjectNext img {
+  }
+  .carouselProjectNext img {
     width: 50%;
   }
 }
@@ -69,9 +71,8 @@
   }
   .carouselProjectPrev img {
     width: 100%;
-   }
-   .carouselProjectNext img {
+  }
+  .carouselProjectNext img {
     width: 100%;
   }
 }
-
