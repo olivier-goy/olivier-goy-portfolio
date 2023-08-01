@@ -8,7 +8,7 @@ import "./Card.css";
 
 function Card({ realization }) {
 
-    const [modalIsOpen, setIsOpen] = useState(false);
+    const [IsOpen, setIsOpen] = useState(false);
 
     function openModal() {
         setIsOpen(true);
@@ -41,7 +41,7 @@ function Card({ realization }) {
             </div>
             <div>
                 <ReactModal
-                    isOpen={modalIsOpen}
+                    isOpen={IsOpen}
                     onRequestClose={closeModal}
                     className="Modal"
                 >
