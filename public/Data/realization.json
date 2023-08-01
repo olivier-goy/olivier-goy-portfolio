@@ -39,7 +39,7 @@
   {
     "id": "4",
     "title": "KASA",
-    "description": "",
+    "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Réalisation de la partie frontend d'un site d'une agence de location imobilière grâce au framework ReactJs et de la dépendance React router. Pour le design une maquette Figma était fournis pour les format d'écran desktop et mobil. l'IDE utlisé et imposer était VSCode.",
     "imageUrl": "http://localhost:3000/Images/Kasa/Kasa.webp",
     "imagesUrl": ["http://localhost:3000/Images/Kasa/OneKasa.webp", "http://localhost:3000/Images/Kasa/TwoKasa.webp", "http://localhost:3000/Images/Kasa/ThreeKasa.webp", "http://localhost:3000/Images/Kasa/FourKasa.webp", "http://localhost:3000/Images/Kasa/FiveKasa.webp", "http://localhost:3000/Images/Kasa/SixKasa.webp"],
     "linkGitHub": "https://github.com/olivier-goy/Kasa",
@@ -49,7 +49,7 @@
   {
     "id": "5",
     "title": "MON VIEUX GRIMOIRE",
-    "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms.",
+    "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Création du Backend pour un site de notation de livre en utilisant NodeJs pour le serveur, le framework ExpressJs pour la logique métier et les méthodes de requète et MongooseJs pour la liaison entre la base de donnée MongoDb et le backend.",
     "imageUrl": "http://localhost:3000/Images/MonVieuxGrimoire/MonVieuxGrimoire.webp",
     "imagesUrl": [ "http://localhost:3000/Images/MonVieuxGrimoire/MonVieuxGrimoire.webp"],
     "linkGitHub": "https://github.com/olivier-goy/Mon-vieux-grimoire/tree/master",
@@ -59,7 +59,7 @@
   {
     "id": "6",
     "title": "MON PORTFOLIO",
-    "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. J'ai réaliser mon portfolio pour me rendre visible auprès des recruteurs. Dans ce projet j'ai mis à jour mon CV et aussi créer carte mental qui m'a permis de déterminer ce que je voulais montrer. Une maquette sur Figma à était réaliser par moi même pour déterminer le design que je souhaiter et pour le code j'ai choisi REACT pour la réalisation de mon code. Enfin j'ai acheter est mis en place un nom de domaine ainsi qu'une adresse mail professionnel grâce à OVH et pour l'hêbergement j'ai choisi Vercel",
+    "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. J'ai réaliser mon portfolio pour me rendre visible auprès des recruteurs. Dans ce projet j'ai mis à jour mon CV et aussi créer carte mental qui m'a permis de déterminer ce que je voulais montrer. Une maquette sur Figma à était réaliser par moi même pour déterminer le design que je souhaiter et pour le code j'ai choisi REACT. Enfin j'ai acheter est mis en place un nom de domaine ainsi qu'une adresse mail professionnel grâce à OVH et pour l'hêbergement j'ai choisi Vercel",
     "imageUrl": "http://localhost:3000/Images/MonPortfolio/portfolio.webp",
     "imagesUrl": ["http://localhost:3000/Images/MonPortfolio/portfolio.webp"],
     "linkGitHub": "https://github.com/olivier-goy/olivier-goy-portfolio",

@@ -6,20 +6,6 @@ import ReactModal from 'react-modal';
 import Tag from "../Tag/Tag";
 import "./Card.css";
 
-const customStyles = {
-    content: {
-        top: '50%',
-        left: '50%',
-        width: "80%",
-        height: "90%",
-        marginRight: '-50%',
-        transform: 'translate(-50%, -50%)',
-        borderRadius: '10px',
-        border: "3px solid #94D25A",
-        padding: "0"
-    },
-};
-
 function Card({ realization }) {
 
     const [modalIsOpen, setIsOpen] = useState(false);
@@ -57,7 +43,7 @@ function Card({ realization }) {
                 <ReactModal
                     isOpen={modalIsOpen}
                     onRequestClose={closeModal}
-                    style={customStyles}
+                    className="Modal"
                 >
                     <FontAwesomeIcon className="modalCrossClose" onClick={closeModal} icon={faXmark} size="2x" />
                     <Modal realization={realization} />
