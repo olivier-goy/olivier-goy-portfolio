@@ -21,7 +21,7 @@ function Card({ realization }) {
         <div className="cardProject">
             <div className="card" onClick={openModal}>
                 <div className="cardImage">
-                    <img src={realization.imageUrl} alt="" />
+                    <img src={realization.imageUrl} alt={"Image de présentation du site " + realization.title} />
                 </div>
                 <div className="cardDescription">
                     <div className="cardDescriptionTag">
