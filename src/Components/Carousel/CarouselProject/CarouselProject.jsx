@@ -15,7 +15,8 @@ function CarouselProject({ realizations }) {
 
     useEffect(() => {
         function handleResize() {
-            setWindowSize(getSize());
+            setWindowSize(getSize())
+            setIsIndex(0)
         }
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
