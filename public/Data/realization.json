@@ -5,12 +5,12 @@
     "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Création d'une page d'accueil pour une agence de voyage en HTML & CSS uniquement. L'intégration a était réalisé depuis une maquette présente sur Figma et comporter une partie responsive pour les format d'écran descktop, tablette, mobile. Parmis les pré-requis il y avait l'utilisation de l'IDE VSCode.",
     "imageUrl": "http://localhost:3000/Images/Booki/Booki.webp",
     "imagesUrl": [
-      "http://localhost:3000/Images/Booki/FirstImageBooki.webp",
-      "http://localhost:3000/Images/Booki/TwoImageBooki.webp",
-      "http://localhost:3000/Images/Booki/ThreeImageBooki.webp",
-      "http://localhost:3000/Images/Booki/FourImageBooki.webp",
-      "http://localhost:3000/Images/Booki/FiveImageBooki.webp",
-      "http://localhost:3000/Images/Booki/SixImageBooki.webp"
+      "https://oliviergoy.dev/Images/Booki/FirstImageBooki.webp",
+      "https://oliviergoy.dev/Images/Booki/TwoImageBooki.webp",
+      "https://oliviergoy.dev/Images/Booki/ThreeImageBooki.webp",
+      "https://oliviergoy.dev/Images/Booki/FourImageBooki.webp",
+      "https://oliviergoy.dev/Images/Booki/FiveImageBooki.webp",
+      "https://oliviergoy.dev/Images/Booki/SixImageBooki.webp"
     ],
     "linkGitHub": "https://github.com/olivier-goy/Goy_Olivier_2_HTML-CSS_02012023/tree/dev",
     "linkWebSite": "https://olivier-goy.github.io/Goy_Olivier_2_HTML-CSS_02012023/",
@@ -20,8 +20,8 @@
     "id": "2",
     "title": "SOPHIE BLUEL",
     "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Mise en place d'une dynamisation d'un site en ce basant sur du code déjà existant en Front-end et Back-end. le Projet était de donner la possibiler à l'administrateur de ce connecter à sont compte et par la même occation de si déconnecter en toute sécuriter. l'Administrateur authentifier devez avoir la possibiliter de supprimez des projet de sont portefolio mais aussi d'en créer d'autre via un formulaire. Enfin le visiteur du site devais avoir la possibiliter de filtrer les projets présent dans la gallerie.",
-    "imageUrl": "http://localhost:3000/Images/SophieBluel/SophieBluel.webp",
-    "imagesUrl": ["http://localhost:3000/Images/SophieBluel/TwoSophieBluel.webp"],
+    "imageUrl": "https://oliviergoy.dev/Images/SophieBluel/SophieBluel.webp",
+    "imagesUrl": ["https://oliviergoy.dev/Images/SophieBluel/TwoSophieBluel.webp"],
     "linkGitHub": "https://github.com/olivier-goy/Portfolio-architecte-sophie-bluel",
     "linkWebSite": "",
     "tools": ["JAVASCRIPT", "HTML", "CSS", "VSCODE", "GIT", "GITHUB"]
@@ -30,8 +30,8 @@
     "id": "3",
     "title": "NINA CARDUCCI",
     "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Pour ce projet il falut Débugger la partie carousel de la gallerie qui ne fonctionné pas ainsi que le changement d'état du filtre. Les images on était entièrement retravailler sur tout le site en therme de format (passage en webp et en taille) pour optimiser le chargement et améliorer le score de performance. Une grande revu du code pour enlever tout les oublies et de les mauvaises pratique pour permetre un meilleur SEO. Changement de certain  élement du site pour palier le problème d'accéssibilité.",
-    "imageUrl": "http://localhost:3000/Images/NinaCarducci/NinaCarducci.webp",
-    "imagesUrl": ["http://localhost:3000/Images/NinaCarducci/OneNinaCarducci.webp", "http://localhost:3000/Images/NinaCarducci/TwoNinaCarducci.webp", "http://localhost:3000/Images/NinaCarducci/ThreeNinaCarducci.webp"],
+    "imageUrl": "https://oliviergoy.dev/Images/NinaCarducci/NinaCarducci.webp",
+    "imagesUrl": ["https://oliviergoy.dev/Images/NinaCarducci/OneNinaCarducci.webp", "https://oliviergoy.dev/Images/NinaCarducci/TwoNinaCarducci.webp", "https://oliviergoy.dev/Images/NinaCarducci/ThreeNinaCarducci.webp"],
     "linkGitHub": "https://github.com/olivier-goy/nina-carducci.github.io/tree/optimization",
     "linkWebSite": "https://olivier-goy.github.io/nina-carducci.github.io/",
     "tools": ["LIGHTHOUSE", "WAVE", "GIT", "GITHUB", "VSCODE", "SCHEMA.ORG"]
@@ -40,8 +40,8 @@
     "id": "4",
     "title": "KASA",
     "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Réalisation de la partie frontend d'un site d'une agence de location imobilière grâce au framework ReactJs et de la dépendance React router. Pour le design une maquette Figma était fournis pour les format d'écran desktop et mobil. l'IDE utlisé et imposer était VSCode.",
-    "imageUrl": "http://localhost:3000/Images/Kasa/Kasa.webp",
-    "imagesUrl": ["http://localhost:3000/Images/Kasa/OneKasa.webp", "http://localhost:3000/Images/Kasa/TwoKasa.webp", "http://localhost:3000/Images/Kasa/ThreeKasa.webp", "http://localhost:3000/Images/Kasa/FourKasa.webp", "http://localhost:3000/Images/Kasa/FiveKasa.webp", "http://localhost:3000/Images/Kasa/SixKasa.webp"],
+    "imageUrl": "https://oliviergoy.dev/Images/Kasa/Kasa.webp",
+    "imagesUrl": ["https://oliviergoy.dev/Images/Kasa/OneKasa.webp", "https://oliviergoy.dev/Images/Kasa/TwoKasa.webp", "https://oliviergoy.dev/Images/Kasa/ThreeKasa.webp", "https://oliviergoy.dev/Images/Kasa/FourKasa.webp", "https://oliviergoy.dev/Images/Kasa/FiveKasa.webp", "https://oliviergoy.dev/Images/Kasa/SixKasa.webp"],
     "linkGitHub": "https://github.com/olivier-goy/Kasa",
     "linkWebSite": "https://kasa-three-phi.vercel.app/",
     "tools": ["REACT", "REACT-ROUTER", "FIGMA", "VSCODE" ]
@@ -50,8 +50,8 @@
     "id": "5",
     "title": "MON VIEUX GRIMOIRE",
     "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Création du Backend pour un site de notation de livre en utilisant NodeJs pour le serveur, le framework ExpressJs pour la logique métier et les méthodes de requète et MongooseJs pour la liaison entre la base de donnée MongoDb et le backend.",
-    "imageUrl": "http://localhost:3000/Images/MonVieuxGrimoire/MonVieuxGrimoire.webp",
-    "imagesUrl": [ "http://localhost:3000/Images/MonVieuxGrimoire/MonVieuxGrimoire.webp"],
+    "imageUrl": "https://oliviergoy.dev/Images/MonVieuxGrimoire/MonVieuxGrimoire.webp",
+    "imagesUrl": [ "https://oliviergoy.dev/Images/MonVieuxGrimoire/MonVieuxGrimoire.webp"],
     "linkGitHub": "https://github.com/olivier-goy/Mon-vieux-grimoire/tree/master",
     "linkWebSite": "",
     "tools": ["NODEJS", "EXPRESSJS", "MONGOOSEJS", "JSON", "BCRYPT", "MULTER"]
@@ -60,8 +60,8 @@
     "id": "6",
     "title": "MON PORTFOLIO",
     "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. J'ai réaliser mon portfolio pour me rendre visible auprès des recruteurs. Dans ce projet j'ai mis à jour mon CV et aussi créer carte mental qui m'a permis de déterminer ce que je voulais montrer. Une maquette sur Figma à était réaliser par moi même pour déterminer le design que je souhaiter et pour le code j'ai choisi REACT. Enfin j'ai acheter est mis en place un nom de domaine ainsi qu'une adresse mail professionnel grâce à OVH et pour l'hêbergement j'ai choisi Vercel",
-    "imageUrl": "http://localhost:3000/Images/MonPortfolio/portfolio.webp",
-    "imagesUrl": ["http://localhost:3000/Images/MonPortfolio/portfolio.webp"],
+    "imageUrl": "https://oliviergoy.dev/Images/MonPortfolio/portfolio.webp",
+    "imagesUrl": ["https://oliviergoy.dev/Images/MonPortfolio/portfolio.webp"],
     "linkGitHub": "https://github.com/olivier-goy/olivier-goy-portfolio",
     "linkWebSite": "",
     "tools": ["REACT", "JAVASCRIPT", "FIGMA", "GIT", "GITHUB", "VERCEL"]
