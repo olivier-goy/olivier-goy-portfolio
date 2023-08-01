@@ -9,8 +9,8 @@
             {
                 "titleSkill": "Languages",
                 "altSkill": "logo code",
-                "listSkills": ["Javascript", "Php", "Html5 - Css3"],
-                "logoSkillUrl" : "https://oliviergoy.dev/Images/code.png"
+                "listSkills": ["Javascript", "Html5 - Css3"],
+                "logoSkillUrl" : "http://localhost:3000/Images/code.png"
             },
             {
                 "titleSkill": "Frameworks",

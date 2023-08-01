@@ -23,16 +23,16 @@ function CarouselProjectImage({ realizationImages, altImage }) {
     return (
         <div>
             <div className="carouselStyle">
-                <img src={realizationImages[isIndexImage]} className="pictureCarousel" alt={altImage} />
+                <img src={realizationImages[isIndexImage]} className="pictureCarousel" alt={"Image de présentation du site " + altImage} />
                 {
                     realizationImages.length > 1 &&
                     <div className="navCarousel">
                         <div className="prevCarouselStyle">
-                            <img src={arrowPrev} onClick={prevIndexImage} alt="logo flêche en arrière" />
+                            <img src={arrowPrev} onClick={prevIndexImage} alt="logo flèche en arrière" />
                         </div>
                         <span>{isIndexImage + 1}/{realizationImages.length}</span>
                         <div className="nextCarouselStyle">
-                            <img src={arrowNext} onClick={nextIndexImage} alt="logo flêche en avant" />
+                            <img src={arrowNext} onClick={nextIndexImage} alt="logo flèche en avant" />
                         </div>
                     </div>
                 }

@@ -15,7 +15,8 @@ function CarouselProject({ realizations }) {
 
     useEffect(() => {
         function handleResize() {
-            setWindowSize(getSize());
+            setWindowSize(getSize())
+            setIsIndex(0)
         }
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
@@ -54,7 +55,7 @@ function CarouselProject({ realizations }) {
     return (
         <div className="carouselProject">
             <div className="carouselProjectPrev" onClick={prevIndex}>
-                <img src={logoArrowPrev} alt="icon flêche précédente" />
+                <img src={logoArrowPrev} alt="icon flèche précédente" />
             </div>
             <div className="carouselProjectMain">
                 {
@@ -67,7 +68,7 @@ function CarouselProject({ realizations }) {
                 }
             </div>
             <div className="carouselProjectNext">
-                <img src={logoArrowNext} onClick={nextIndex} alt="icon flêche suivante" />
+                <img src={logoArrowNext} onClick={nextIndex} alt="icon flèche suivante" />
             </div>
         </div>
     )

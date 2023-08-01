@@ -39,7 +39,6 @@
 }
 .cardDescription {
   display: flex;
-  /* align-items: center;   */
   flex-direction: column;
   padding: 10% 5%;
   width: 90%;
@@ -94,9 +93,14 @@
     border-radius: 0;
   }
 }
+@media (max-width: 550px) {
+  .card {
+    height: 470px;
+  }
+}
 @media (max-width: 390px) {
   .card {
-    height: 500px;
+    height: 420px;
   }
   .cardDescriptionTag {
     display: none;
