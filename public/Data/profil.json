@@ -9,7 +9,7 @@
             {
                 "titleSkill": "Languages",
                 "altSkill": "logo code",
-                "listSkills": ["Javascript", "Php", "Html5 - Css3"],
+                "listSkills": ["Javascript", "Html5 - Css3"],
                 "logoSkillUrl" : "http://localhost:3000/Images/code.png"
             },
             {
