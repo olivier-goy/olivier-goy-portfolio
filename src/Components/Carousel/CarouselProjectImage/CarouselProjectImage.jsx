@@ -3,15 +3,15 @@ import arrowNext from "../../../Assets/fleche-next.png";
 import arrowPrev from "../../../Assets/fleche-prev.png";
 import "./CarouselProjectImage.css";
 
-function CarouselProjectImage({realizationImages, altImage}) {
+function CarouselProjectImage({ realizationImages, altImage }) {
     const [isIndexImage, setIsIndexImage] = useState(0)
 
     function nextIndexImage() {
         if (isIndexImage === realizationImages.length - 1) {
             return setIsIndexImage(0)
-        } else {
-            setIsIndexImage(isIndexImage + 1)
         }
+        setIsIndexImage(isIndexImage + 1)
+
     }
 
     function prevIndexImage() {

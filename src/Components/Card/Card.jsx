@@ -1,25 +1,10 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import ModalRealization from "../Modal/ModalRealization";
+import Modal from "../Modal/Modal";
 import ReactModal from 'react-modal';
 import Tag from "../Tag/Tag";
 import "./Card.css";
-
-
-const customStyles = {
-    content: {
-        top: '50%',
-        left: '50%',
-        width: "60%",
-        height: "90%",
-        marginRight: '-50%',
-        transform: 'translate(-50%, -50%)',
-        borderRadius: '10px',
-        border: "3px solid #94D25A",
-        padding: "0"
-    },
-};
 
 function Card({ realization }) {
 
@@ -33,7 +18,7 @@ function Card({ realization }) {
     }
 
     return (
-        <div className="carouselProjectMain">
+        <div className="cardProject">
             <div className="card" onClick={openModal}>
                 <div className="cardImage">
                     <img src={realization.imageUrl} alt="" />
@@ -58,10 +43,10 @@ function Card({ realization }) {
                 <ReactModal
                     isOpen={modalIsOpen}
                     onRequestClose={closeModal}
-                    style={customStyles}
+                    className="Modal"
                 >
                     <FontAwesomeIcon className="modalCrossClose" onClick={closeModal} icon={faXmark} size="2x" />
-                    <ModalRealization realization={realization} />
+                    <Modal realization={realization} />
                 </ReactModal>
             </div>
         </div>

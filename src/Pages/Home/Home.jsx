@@ -1,13 +1,11 @@
+import { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import './Home.css';
 import CarouselProject from "../../Components/Carousel/CarouselProject/CarouselProject";
 import Banner from '../../Components/Banner/Banner';
 import Skill from '../../Components/Skill/Skill';
-import { useEffect, useState } from 'react';
 import About from '../../Components/About/About';
-
-
-
-
 
 function Home() {
 
@@ -72,8 +70,9 @@ function Home() {
       </section>
     </div>
   ) : (
-    <div>
-      <p>Chargement de la page</p>
+    <div className="loading">
+        <h2>Chargement de la page</h2>
+        <FontAwesomeIcon icon={faSpinner} size="8x" spinPulse />
     </div>
   );
 }

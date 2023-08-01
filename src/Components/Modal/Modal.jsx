@@ -3,7 +3,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import CarouselProjectImage from "../Carousel/CarouselProjectImage/CarouselProjectImage";
 import Tag from "../Tag/Tag";
-import "./ModalRealization.css";
+import "./Modal.css";
 
 
 

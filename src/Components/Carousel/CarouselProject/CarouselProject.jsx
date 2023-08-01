@@ -19,7 +19,7 @@ function CarouselProject({ realizations }) {
         }
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
-    })
+    }, [])
 
     function nextIndex() {
         if (windowSize <= 850) {

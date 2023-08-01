@@ -53,7 +53,7 @@
 .link a {
     width: 90%;
     height: 100px;
-    background-color: #94D25A;
+    background-color: #4e871c;
     text-decoration: none;
     border-radius: 10px;
     display: flex;
@@ -87,8 +87,7 @@
         margin-bottom: 30px;
       }
     .modalCarousel {
-        width: 85%;
-        margin: auto;
+        width: 100%;
     }
     .modalDescription {
         padding: 10px 50px 20px 50px;
@@ -139,10 +138,9 @@
     }
 }
 @media (max-width: 600px) {
-    .modalCarousel {
-        width: 100%;
-        margin: auto;
-    }
+    .modalTitle h2 {
+        font-size: 27px;
+      }
     .modalDescription {
         padding: 16px 10px 26px 10px;
     }
