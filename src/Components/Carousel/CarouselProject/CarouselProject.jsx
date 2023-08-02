@@ -12,12 +12,24 @@ function CarouselProject({ realizations }) {
     function getSize() {
         return window.screen.width
     }
-
+    
+    function debounce(func, delay) {
+        let timer;
+        return function (...args) {
+          clearTimeout(timer);
+          timer = setTimeout(() => {
+            func.apply(this, args);
+          }, delay);
+        };
+      }
+    
     useEffect(() => {
         function handleResize() {
             setWindowSize(getSize())
-            setIsIndex(0)
+            debounce(setIsIndex(0), 100)
+            
         }
+
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
     }, [])
