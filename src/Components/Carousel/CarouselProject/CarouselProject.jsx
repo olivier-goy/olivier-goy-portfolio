@@ -12,22 +12,11 @@ function CarouselProject({ realizations }) {
     function getSize() {
         return window.screen.width
     }
-    
-    function debounce(func, delay) {
-        let timer;
-        return function (...args) {
-          clearTimeout(timer);
-          timer = setTimeout(() => {
-            func.apply(this, args);
-          }, delay);
-        };
-      }
-    
+
     useEffect(() => {
         function handleResize() {
             setWindowSize(getSize())
-            debounce(setIsIndex(0), 100)
-            
+            setTimeout(() => { setIsIndex(0) }, "100")
         }
 
         window.addEventListener("resize", handleResize);
@@ -61,6 +50,8 @@ function CarouselProject({ realizations }) {
         }
         setIsIndex(isIndex - 1)
     }
+
+    console.log("index", isIndex)
 
     const cardRealization = windowSize <= 850 ? [realizations[isIndex]] : windowSize <= 1300 ? realizations.slice(isIndex, isIndex + 2) : realizations.slice(isIndex, isIndex + 3)
 
