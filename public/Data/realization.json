@@ -65,7 +65,7 @@
     "id": "6",
     "title": "MON PORTFOLIO",
     "descriptionBackground": "Projet d'étude dans le cadre de ma formation OpenClassrooms.",
-    "descriptionRealization": "Réalisation d'un portfolio pour me rendre plus visible auprès des recruteurs. J'ai réalisé moi-même la maquette sur Figma pour déterminer le design que je souhaitais. J'ai pris la décision de réaliser mon portfolio avec le framework Frontend ReactJS. J'ai créé mon nom de domaine avec mon adresse mail professionnelle sur OVH, que j'ai ajouté à mon hebergeur qui est Vercel.",
+    "descriptionRealization": "Réalisation d'un portfolio pour me rendre plus visible auprès des recruteurs. J'ai réalisé moi-même la maquette sur Figma pour déterminer le design que je souhaitais. J'ai pris la décision de réaliser mon portfolio avec le framework Frontend ReactJS. J'ai créé mon nom de domaine ainsi que mon adresse mail professionnelle sur OVH, que j'ai ajouté à mon hebergeur qui est Vercel.",
     "imageUrl": "https://oliviergoy.dev/Images/MonPortfolio/portfolio.webp",
     "imagesUrl": ["https://oliviergoy.dev/Images/MonPortfolio/portfolio.webp"],
     "linkGitHub": "https://github.com/olivier-goy/olivier-goy-portfolio",
