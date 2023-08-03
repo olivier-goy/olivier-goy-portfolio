@@ -31,6 +31,9 @@
     font-size: 40px;
     margin-bottom: 20px;
 }
+.descriptionBackground {
+    margin-bottom: 20px;
+}
 .modalDescription p {
     font-size: 20px;
     font-weight: 700;

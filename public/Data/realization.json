@@ -43,7 +43,7 @@
     "id": "4",
     "title": "KASA",
     "descriptionBackground": "Projet d'étude dans le cadre de ma formation OpenClassrooms.",
-    "descriptionRealization": "Réalisation de la partie frontend du site d'une agence de location immobilière avec le framework ReactJs et avec la dépendance React-router. Le site comprend plusieurs pages et composants qui, pour certains, ont été réutilisés à différents endroits du site. Une maquette figma était fournie pour le design des écrans desktop et mobile",
+    "descriptionRealization": "Réalisation de la partie frontend du site d'une agence de location immobilière avec le framework ReactJS et avec la dépendance React-router. Le site comprend plusieurs pages et composants qui, pour certains, ont été réutilisés à différents endroits du site. Une maquette figma était fournie pour le design des écrans desktop et mobile",
     "imageUrl": "https://oliviergoy.dev/Images/Kasa/Kasa.webp",
     "imagesUrl": ["https://oliviergoy.dev/Images/Kasa/OneKasa.webp", "https://oliviergoy.dev/Images/Kasa/TwoKasa.webp", "https://oliviergoy.dev/Images/Kasa/ThreeKasa.webp", "https://oliviergoy.dev/Images/Kasa/FourKasa.webp", "https://oliviergoy.dev/Images/Kasa/FiveKasa.webp", "https://oliviergoy.dev/Images/Kasa/SixKasa.webp"],
     "linkGitHub": "https://github.com/olivier-goy/Kasa",
