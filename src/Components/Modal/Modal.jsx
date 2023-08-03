@@ -28,8 +28,10 @@ function ModalRealization({ realization }) {
                 </div>
             </div>
             <div className="modalDescription">
+                <h3>Context</h3>
+                <p>{realization.descriptionBackground}</p>
                 <h3>Description</h3>
-                <p>{realization.description}</p>
+                <p>{realization.descriptionRealization}</p>
             </div>
             <div className="modalLink">
                 {

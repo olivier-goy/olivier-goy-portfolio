@@ -3,8 +3,8 @@
         "id": "1",
         "firstName": "Olivier",
         "lastName": "GOY",
-        "description": "Lorem ipsum dolor sit amet. In deleniti animi et sint explicabo sed dicta quod ut error molestiae et ipsa autem ut deleniti voluptatibus. Non officiis dignissimos eum numquam nihil qui natus velit sit blanditiis esse. Sed corrupti cupiditate At quia incidunt sit magnam nulla. Ab enim alias qui voluptas eaque et dolore illo et esse illo eos accusantium optio a voluptas vero ut ducimus sunt.",
-        "trainning": "Qui nisi rerum est magni culpa ut soluta aliquid eum iusto accusamus qui doloribus fugit sed eaque galisum et dolores voluptates. Non modi aspernatur non quos beatae a fugit sint aut sequi consequatur et repellat totam sit exercitationem officia.ﬂ",
+        "description": "Passionné depuis toujours de nouvelles technologies et particulièrement d’innovations numériques, j’ai pu acquérir grâce à mes différentes formations des compétences de programmation dans différents langages, aussi bien en front qu’en back, en ayant recours à différents framework. Je consolide par ailleurs toutes ces aptitudes à travers une pratique quotidienne du code.",
+        "trainning": "Formé par la WildCodeSchool en 2017, j’ai également suivi la formation d’OpenClassrooms en 2023 afin de me mettre à niveau et de maîtriser au mieux les évolutions des différents langages de programmation. Cette dernière formation, en distanciel, m’a en outre permis de consolider encore davantage les compétences d’organisation et d’autonomie acquises au cours de mes différentes expériences professionnelles. Suite à ma première formation, j’ai notamment eu l’opportunité de faire un stage de 6 mois chez Biagri pour le site compararteuragricole et de contribuer à la mise en place et à la conception de leur site internet en travaillant en frontend sur Angular.",
         "skills": [
             {
                 "titleSkill": "Languages",

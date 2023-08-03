@@ -2,7 +2,8 @@
   {
     "id": "1",
     "title": "BOOKI",
-    "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Création d'une page d'accueil pour une agence de voyage en HTML & CSS uniquement. L'intégration a était réalisé depuis une maquette présente sur Figma et comporter une partie responsive pour les format d'écran descktop, tablette, mobile. Parmis les pré-requis il y avait l'utilisation de l'IDE VSCode.",
+    "descriptionBackground": "Projet d'étude dans le cadre de ma formation OpenClassrooms.",
+    "descriptionRealization": "Création d'une page d'accueil pour une agence de voyage en HTML & CSS uniquement. L'intégration de la page à été réalisée en se basant sur une maquette présente sur Figma et comportait une partie responsive pour les formats d'écran desktop, tablette et mobile.",
     "imageUrl": "https://oliviergoy.dev/Images/Booki/Booki.webp",
     "imagesUrl": [
       "https://oliviergoy.dev/Images/Booki/FirstImageBooki.webp",
@@ -19,7 +20,8 @@
   {
     "id": "2",
     "title": "SOPHIE BLUEL",
-    "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Mise en place d'une dynamisation d'un site en ce basant sur du code déjà existant en Front-end et Back-end. le Projet était de donner la possibiler à l'administrateur de ce connecter à sont compte et par la même occation de si déconnecter en toute sécuriter. l'Administrateur authentifier devez avoir la possibiliter de supprimez des projet de sont portefolio mais aussi d'en créer d'autre via un formulaire. Enfin le visiteur du site devais avoir la possibiliter de filtrer les projets présent dans la gallerie.",
+    "descriptionBackground": "Projet d'étude dans le cadre de ma formation OpenClassrooms.",
+    "descriptionRealization": "Mise en place d'une dynamisation d'un site avec le langage de programmation Javascript et en se basant sur du code déjà existant en Frontend et Backend. Le Projet consistait à donner la possibilité à l'administrateur de se connecter à son compte et de s'en déconnecter en toute sécurité. L'administrateur authentifié devait avoir la possibilité de supprimer des projets de son portefolio mais aussi d'en créer d'autres via un formulaire. Enfin, le visiteur du site devait avoir la possibilité de filtrer les projets présents dans la galerie.",
     "imageUrl": "https://oliviergoy.dev/Images/SophieBluel/SophieBluel.webp",
     "imagesUrl": ["https://oliviergoy.dev/Images/SophieBluel/TwoSophieBluel.webp"],
     "linkGitHub": "https://github.com/olivier-goy/Portfolio-architecte-sophie-bluel",
@@ -29,7 +31,8 @@
   {
     "id": "3",
     "title": "NINA CARDUCCI",
-    "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Pour ce projet il falut Débugger la partie carousel de la gallerie qui ne fonctionné pas ainsi que le changement d'état du filtre. Les images on était entièrement retravailler sur tout le site en therme de format (passage en webp et en taille) pour optimiser le chargement et améliorer le score de performance. Une grande revu du code pour enlever tout les oublies et de les mauvaises pratique pour permetre un meilleur SEO. Changement de certain  élement du site pour palier le problème d'accéssibilité.",
+    "descriptionBackground": "Projet d'étude dans le cadre de ma formation OpenClassrooms.",
+    "descriptionRealization": "Projet pour lequel il fallait débugger la partie carousel de la galerie qui ne fonctionnait pas ainsi que le changement d'état du filtre. Le deuxième point était l'optimisation en modifiant la taille des images ainsi que leur format qui a été passé en webp. Une grande révision du code a été effectuée pour enlever tous les oublis et corriger les mauvaises pratiques afin d'optimiser le référencement et par la même occasion mettre en place un schema.org. Certains éléments du site ont été modifiés dans le but de pallier le problème d'accessibilité.",
     "imageUrl": "https://oliviergoy.dev/Images/NinaCarducci/NinaCarducci.webp",
     "imagesUrl": ["https://oliviergoy.dev/Images/NinaCarducci/OneNinaCarducci.webp", "https://oliviergoy.dev/Images/NinaCarducci/TwoNinaCarducci.webp", "https://oliviergoy.dev/Images/NinaCarducci/ThreeNinaCarducci.webp"],
     "linkGitHub": "https://github.com/olivier-goy/nina-carducci.github.io/tree/optimization",
@@ -39,7 +42,8 @@
   {
     "id": "4",
     "title": "KASA",
-    "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Réalisation de la partie frontend d'un site d'une agence de location imobilière grâce au framework ReactJs et de la dépendance React router. Pour le design une maquette Figma était fournis pour les format d'écran desktop et mobil. l'IDE utlisé et imposer était VSCode.",
+    "descriptionBackground": "Projet d'étude dans le cadre de ma formation OpenClassrooms.",
+    "descriptionRealization": "Réalisation de la partie frontend du site d'une agence de location immobilière avec le framework ReactJs et avec la dépendance React-router. Le site comprend plusieurs pages et composants qui, pour certains, ont été réutilisés à différents endroits du site. Une maquette figma était fournie pour le design des écrans desktop et mobile",
     "imageUrl": "https://oliviergoy.dev/Images/Kasa/Kasa.webp",
     "imagesUrl": ["https://oliviergoy.dev/Images/Kasa/OneKasa.webp", "https://oliviergoy.dev/Images/Kasa/TwoKasa.webp", "https://oliviergoy.dev/Images/Kasa/ThreeKasa.webp", "https://oliviergoy.dev/Images/Kasa/FourKasa.webp", "https://oliviergoy.dev/Images/Kasa/FiveKasa.webp", "https://oliviergoy.dev/Images/Kasa/SixKasa.webp"],
     "linkGitHub": "https://github.com/olivier-goy/Kasa",
@@ -49,7 +53,8 @@
   {
     "id": "5",
     "title": "MON VIEUX GRIMOIRE",
-    "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. Création du Backend pour un site de notation de livre en utilisant NodeJs pour le serveur, le framework ExpressJs pour la logique métier et les méthodes de requète et MongooseJs pour la liaison entre la base de donnée MongoDb et le backend.",
+    "descriptionBackground": "Projet d'étude dans le cadre de ma formation OpenClassrooms.",
+    "descriptionRealization": "Création du Backend pour un site de notation de livres en utilisant NodeJs pour le serveur, le framework ExpressJs pour la logique métier et les méthodes de requête, et MongooseJs pour la liaison entre la base de données MongoDB et le Backend. Les requêtes étaient la création et la connexion d'utilisateurs mais aussi l'ajout, la modification et la suppression de livres ainsi que la possibilité de récupérer les livres présents dans la base de données.",
     "imageUrl": "https://oliviergoy.dev/Images/MonVieuxGrimoire/MonVieuxGrimoire.webp",
     "imagesUrl": [ "https://oliviergoy.dev/Images/MonVieuxGrimoire/MonVieuxGrimoire.webp"],
     "linkGitHub": "https://github.com/olivier-goy/Mon-vieux-grimoire/tree/master",
@@ -59,7 +64,8 @@
   {
     "id": "6",
     "title": "MON PORTFOLIO",
-    "description": "Projet d'étude dans le cadre de ma formation OpenClassrooms. J'ai réaliser mon portfolio pour me rendre visible auprès des recruteurs. Dans ce projet j'ai mis à jour mon CV et aussi créer carte mental qui m'a permis de déterminer ce que je voulais montrer. Une maquette sur Figma à était réaliser par moi même pour déterminer le design que je souhaiter et pour le code j'ai choisi REACT. Enfin j'ai acheter est mis en place un nom de domaine ainsi qu'une adresse mail professionnel grâce à OVH et pour l'hêbergement j'ai choisi Vercel",
+    "descriptionBackground": "Projet d'étude dans le cadre de ma formation OpenClassrooms.",
+    "descriptionRealization": "Réalisation d'un portfolio pour me rendre plus visible auprès des recruteurs. J'ai réalisé moi-même la maquette sur Figma pour déterminer le design que je souhaitais. J'ai pris la décision de réaliser mon portfolio avec le framework Frontend ReactJS. J'ai créé mon nom de domaine avec mon adresse mail professionnelle sur OVH, que j'ai ajouté à mon hebergeur qui est Vercel.",
     "imageUrl": "https://oliviergoy.dev/Images/MonPortfolio/portfolio.webp",
     "imagesUrl": ["https://oliviergoy.dev/Images/MonPortfolio/portfolio.webp"],
     "linkGitHub": "https://github.com/olivier-goy/olivier-goy-portfolio",
