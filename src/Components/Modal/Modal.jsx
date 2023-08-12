@@ -11,6 +11,7 @@ function ModalRealization({ realization }) {
 
     return (
         <div>
+            {console.log(realization)}
             <div className="modalTitle">
                 <h2>{realization.title}</h2>
             </div>
@@ -32,6 +33,10 @@ function ModalRealization({ realization }) {
                 <p className="descriptionBackground">{realization.descriptionBackground}</p>
                 <h3>Description</h3>
                 <p>{realization.descriptionRealization}</p>
+                <h3>Problématique</h3>
+                <p>{realization.descriptionProblematic}</p>
+                <h3>Solution</h3>
+                <p>{realization.descriptionSolution}</p>
             </div>
             <div className="modalLink">
                 {
