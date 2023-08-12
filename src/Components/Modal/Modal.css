@@ -11,168 +11,166 @@
   font-size: 40px;
 }
 .modalCarousel {
-    width: 80%;
-    margin: auto;
+  width: 80%;
+  margin: auto;
 }
 .modalCarouselTag {
-    margin: 40px 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .modalDescription {
-    background-color: #E7E7E7;
-    height: auto;
-    text-align: center;
-    padding: 20px 70px 30px 70px;
+  background-color: #e7e7e7;
+  height: auto;
+  text-align: center;
+  padding: 20px 70px 30px 70px;
 }
 .modalDescription h3 {
-    font-size: 40px;
-    margin-bottom: 20px;
+  font-size: 40px;
+  margin: 20px 0;
 }
-.descriptionBackground {
-    margin-bottom: 20px;
+.lastChildDescription {
+  margin-bottom: 20px;
 }
 .modalDescription p {
-    font-size: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
 .modalLink {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1;
 }
 .link a {
-    width: 90%;
-    height: 100px;
-    background-color: #4e871c;
-    text-decoration: none;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 90%;
+  height: 100px;
+  background-color: #4e871c;
+  text-decoration: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .linkIcon {
-    color: #262626;
-    flex: 1 30%;
-    display: flex;
-    justify-content: center;
+  color: #262626;
+  flex: 1 30%;
+  display: flex;
+  justify-content: center;
 }
 .linkText {
-    flex: 1 70%;
-    padding: 12px;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 800;
-    color: #FFFFFF;
+  flex: 1 70%;
+  padding: 12px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  color: #ffffff;
 }
 
 @media (max-width: 1550px) {
-    .linkText {
-        font-size: 20px;
-        font-weight: 700;
-    }
+  .linkText {
+    font-size: 20px;
+    font-weight: 700;
+  }
 }
 @media (max-width: 1250px) {
-    .modalTitle {
-        height: 70px;
-        margin-bottom: 30px;
-      }
-    .modalCarousel {
-        width: 100%;
-    }
-    .modalDescription {
-        padding: 10px 50px 20px 50px;
-    }
-    .modalDescription h3 {
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-    .modalDescription p {
-        font-size: 15px;
-        font-weight: 600;
-    }
-    .modalLink {
-        height: 150px;
-    }
-    .link a {
-        width: 90%;
-    }
-    .linkIcon {
-        font-size: 12px;
-    }
-    .linkText {
-        font-size: 17px;
-        padding: 5px;
-    }
+  .modalTitle {
+    height: 70px;
+    margin-bottom: 30px;
+  }
+  .modalCarousel {
+    width: 100%;
+  }
+  .modalDescription {
+    padding: 10px 50px 20px 50px;
+  }
+  .modalDescription h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .modalDescription p {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .modalLink {
+    height: 150px;
+  }
+  .link a {
+    width: 90%;
+  }
+  .linkIcon {
+    font-size: 12px;
+  }
+  .linkText {
+    font-size: 17px;
+    padding: 5px;
+  }
 }
 @media (max-width: 900px) {
-    .modalDescription {
-        padding: 16px 20px 26px 20px;
-    }
-    .modalDescription p {
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .modalLink {
-        display: block;
-    }
-    .link {
-        margin-top: 20px;
-    }
-    .link:last-child a {
-        flex-direction: row-reverse;
-        margin-bottom: 20px;
-    }
-    .linkText {
-        font-size: 22px;
-        padding: 10px;
-    }
+  .modalDescription {
+    padding: 16px 20px 26px 20px;
+  }
+  .modalDescription p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .modalLink {
+    display: block;
+  }
+  .link {
+    margin-top: 20px;
+  }
+  .link:last-child a {
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+  }
+  .linkText {
+    font-size: 22px;
+    padding: 10px;
+  }
 }
 @media (max-width: 600px) {
-    .modalTitle h2 {
-        font-size: 27px;
-      }
-    .modalDescription {
-        padding: 16px 10px 26px 10px;
-    }
-    .modalDescription h3 {
-        font-size: 25px;
-    }
-    .modalDescription p {
-        font-size: 12px;
-        font-weight: 600;
-    }
-    .linkText {
-        font-size: 20px;
-        padding: 10px;
-    }
+  .modalTitle h2 {
+    font-size: 27px;
+  }
+  .modalDescription {
+    padding: 16px 10px 26px 10px;
+  }
+  .modalDescription h3 {
+    font-size: 25px;
+  }
+  .modalDescription p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .linkText {
+    font-size: 20px;
+    padding: 10px;
+  }
 }
 @media (max-width: 473px) {
-    .modalCarouselTag {
-        margin: 20px 0;
-    }
-    .linkIcon {
-        flex: 1 33%;
-    }
-    .linkText {
-        flex: 1 67%;
-    }
-    .linkText {
-        font-size: 16px;
-        padding: 2px;
-    }
+  .modalCarouselTag {
+    margin: 20px 0;
+  }
+  .linkIcon {
+    flex: 1 33%;
+  }
+  .linkText {
+    flex: 1 67%;
+  }
+  .linkText {
+    font-size: 16px;
+    padding: 2px;
+  }
 }
-
-

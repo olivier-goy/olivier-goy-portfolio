@@ -1,6 +1,6 @@
 import "./Skill.css";
 
-function Skill({logo, title, skillsList, altSkill}) {
+function Skill({ logo, title, skillsList, altSkill }) {
 
     return (
         <div className="skill">

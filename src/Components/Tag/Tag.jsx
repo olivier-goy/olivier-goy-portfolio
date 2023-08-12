@@ -1,6 +1,6 @@
 import "./Tag.css";
 
-function Tag({tool}) {
+function Tag({ tool }) {
     return (
         <div className="tag">
             <p>{tool}</p>

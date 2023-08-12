@@ -53,7 +53,7 @@ function CarouselProject({ realizations }) {
         } else {
             setIsIndex((prevIndex) => Math.min(prevIndex, realizations.length - 3));
         }
-        
+
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
     }, [windowSize, realizations])

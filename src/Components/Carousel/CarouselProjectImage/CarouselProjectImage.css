@@ -1,110 +1,110 @@
 .carouselStyle {
-    width: 100%;
-    height: auto;
-    max-height: 450px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-    border-radius: 25px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 100%;
+  height: auto;
+  max-height: 450px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.carouselStyle img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.navCarousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navCarousel span {
+  margin-bottom: 24px;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #262626;
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: 800;
+}
+.prevCarouselStyle {
+  margin-left: 24px;
+  flex: 1;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.prevCarouselStyle:hover img {
+  max-width: 30%;
+  opacity: 0.7;
+}
+.prevCarouselStyle img {
+  max-width: 20%;
+  opacity: 0.2;
+}
+.nextCarouselStyle {
+  margin-right: 24px;
+  flex: 1;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.nextCarouselStyle:hover img {
+  max-width: 30%;
+  opacity: 0.7;
+}
+.nextCarouselStyle img {
+  max-width: 20%;
+  opacity: 0.2;
+}
+@media (max-width: 1250px) {
+  .carouselStyle {
+    margin-top: 30px;
+    border-radius: 10px;
   }
-  .carouselStyle img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
-  .navCarousel {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .carouselStyle {
+    border-radius: 0;
   }
   .navCarousel span {
-    margin-bottom: 24px;
-    flex: 1;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    color: #262626;
-    font-weight: 500;
-    font-size: 18px;
-    font-weight: 800;
+    display: none;
   }
-  .prevCarouselStyle {
-    margin-left: 24px;
-    flex: 1;
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-    cursor: pointer;
+}
+@media (max-width: 700px) {
+  .carouselStyle {
+    margin-top: 30px;
+  }
+  .navCarousel span {
+    display: none;
   }
   .prevCarouselStyle:hover img {
-    max-width: 30%;
-    opacity: 0.7;
+    max-width: 20%;
+    opacity: 0.6;
   }
   .prevCarouselStyle img {
     max-width: 20%;
-    opacity: 0.2;
-  }
-  .nextCarouselStyle {
-    margin-right: 24px;
-    flex: 1;
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    cursor: pointer;
+    opacity: 0.6;
   }
   .nextCarouselStyle:hover img {
-    max-width: 30%;
-    opacity: 0.7;
+    max-width: 20%;
+    opacity: 0.6;
   }
   .nextCarouselStyle img {
     max-width: 20%;
-    opacity: 0.2;
+    opacity: 0.6;
   }
-  @media (max-width: 1250px) {
-    .carouselStyle {
-      margin-top: 30px;
-      border-radius: 10px;
-    }
-    .carouselStyle {
-      border-radius: 0;
-    }
-    .navCarousel span {
-      display: none;
-    }
-  } 
-  @media (max-width: 700px) {
-    .carouselStyle {
-      margin-top: 30px;
-    }
-    .navCarousel span {
-      display: none;
-    }
-    .prevCarouselStyle:hover img {
-      max-width: 20%;
-      opacity: 0.6;
-    }
-    .prevCarouselStyle img {
-      max-width: 20%;
-      opacity: 0.6;
-    }
-    .nextCarouselStyle:hover img {
-      max-width: 20%;
-      opacity: 0.6;
-    }
-    .nextCarouselStyle img {
-      max-width: 20%;
-      opacity: 0.6;
-    }
-  }
-  /* @media (max-width: 500px) {
+}
+/* @media (max-width: 500px) {
     .carouselStyle {
       height: 170px;
     }

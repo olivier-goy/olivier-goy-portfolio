@@ -1,16 +1,16 @@
 .tag {
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 800;
-    background-color: #447d13;
-    border-radius: 10px;
-    width: 137px;
-    height: 25px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 800;
+  background-color: #447d13;
+  border-radius: 10px;
+  width: 137px;
+  height: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .tag p {
-    margin: 2px 0;
+  margin: 2px 0;
 }

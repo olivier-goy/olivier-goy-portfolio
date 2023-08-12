@@ -1,48 +1,48 @@
 .styleText404 {
-    color: #94D25A;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
+  color: #94d25a;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.style404 {
+  font-size: 288px;
+  font-weight: 700;
+  line-height: 142.6%;
+  margin-bottom: 0;
+}
+.styleTextError {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 142.6%;
+  margin: 0 0 182px 0;
+}
+.styleTextReturn {
+  color: #94d25a;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 142.6%;
+}
+
+@media (max-width: 900px) {
+  .styleText404 {
+    margin-top: 100px;
   }
   .style404 {
-    font-size: 288px;
-    font-weight: 700;
-    line-height: 142.6%;
-    margin-bottom: 0;
+    font-size: 200px;
   }
   .styleTextError {
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 142.6%;
-    margin: 0 0 182px 0;
+    font-size: 24px;
   }
-  .styleTextReturn {
-    color: #94D25A;
+}
+
+@media (max-width: 500px) {
+  .styleText404 {
+    margin-top: 200px;
+  }
+  .style404 {
+    font-size: 96px;
+  }
+  .styleTextError {
     font-size: 18px;
-    font-weight: 500;
-    line-height: 142.6%;
   }
-  
-  @media (max-width: 900px) {
-    .styleText404 {
-      margin-top: 100px;
-    }
-    .style404 {
-      font-size: 200px;
-    }
-    .styleTextError {
-      font-size: 24px;
-    }
-  }
-  
-  @media (max-width: 500px) {
-    .styleText404 {
-      margin-top: 200px;
-    }
-    .style404 {
-      font-size: 96px;
-    }
-    .styleTextError {
-      font-size: 18px;
-    }
-  }
+}

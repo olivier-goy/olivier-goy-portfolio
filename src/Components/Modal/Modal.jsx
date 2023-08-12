@@ -30,13 +30,13 @@ function ModalRealization({ realization }) {
             </div>
             <div className="modalDescription">
                 <h3>Context</h3>
-                <p className="descriptionBackground">{realization.descriptionBackground}</p>
+                <p>{realization.descriptionBackground}</p>
                 <h3>Description</h3>
                 <p>{realization.descriptionRealization}</p>
                 <h3>Problématique</h3>
                 <p>{realization.descriptionProblematic}</p>
                 <h3>Solution</h3>
-                <p>{realization.descriptionSolution}</p>
+                <p className="lastChildDescription">{realization.descriptionSolution}</p>
             </div>
             <div className="modalLink">
                 {
@@ -44,7 +44,7 @@ function ModalRealization({ realization }) {
                         <div className="link">
                             <a href={realization.linkGitHub} target="_blank" rel="noreferrer">
                                 <div className="linkIcon">
-                                    <FontAwesomeIcon icon={faGithub} size="4x"/>
+                                    <FontAwesomeIcon icon={faGithub} size="4x" />
                                 </div>
                                 <div className="linkText">
                                     <p>Consultez mon repository GitHub</p>
@@ -61,7 +61,7 @@ function ModalRealization({ realization }) {
                                     <p>Visitez ce site</p>
                                 </div>
                                 <div className="linkIcon">
-                                <FontAwesomeIcon icon={faGlobe} size="4x" />
+                                    <FontAwesomeIcon icon={faGlobe} size="4x" />
                                 </div>
                             </a>
                         </div>) : (<div className="link"></div>)

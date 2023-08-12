@@ -70,8 +70,8 @@ function Home() {
     </div>
   ) : (
     <div className="loading">
-        <h2>Chargement de la page</h2>
-        <FontAwesomeIcon icon={faSpinner} size="8x" spinPulse />
+      <h2>Chargement de la page</h2>
+      <FontAwesomeIcon icon={faSpinner} size="8x" spinPulse />
     </div>
   );
 }
