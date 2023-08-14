@@ -11,7 +11,6 @@ function ModalRealization({ realization }) {
 
     return (
         <div>
-            {console.log(realization)}
             <div className="modalTitle">
                 <h2>{realization.title}</h2>
             </div>
