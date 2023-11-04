@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import icon from "../../Assets/iconHeader.png";
-import cv from "../../Assets/CV-2023.pdf";
+import cv from "../../Assets/CV-OlivierGOY-DeveloppeurFullStack.pdf";
 
 function Header() {
 
