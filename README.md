@@ -13,8 +13,8 @@ Ce répertoire contient une sélection de mes projets qui démontrent mon expert
 
 ## Comment me contacter
 - 📧 [Mon adresse Email](mailto:contact@oliviergoy.dev)
-- 💼 [linkedIn](https://www.linkedin.com/in/olivier-goy/)
-- 🔗 [Portfolio en ligne](https://oliviergoy.dev)
+- 💼 [linkedIn](https://www.linkedin.com/in/olivier-goy/){:target="_blank"}
+- 🔗 [Portfolio en ligne](https://oliviergoy.dev){:target="_blank"}
 
 N'hésitez pas à explorer mes projets et à me contacter pour toute question, suggestion ou opportunité de collaboration !
 
