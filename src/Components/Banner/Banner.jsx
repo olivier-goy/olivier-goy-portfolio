@@ -5,8 +5,8 @@ import "./Banner.css"
 
 function Presentation() {
     return (
-            <div>
-                <div className="banner">
+            <div className="banner">
+                <div className="innerBanner">
                     <div className="sectionImage">
                         <img src={imageProfil} alt="Représentation profil Olivier GOY développeur web" />
                     </div>

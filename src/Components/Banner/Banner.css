@@ -1,11 +1,13 @@
-.banner {
+.banner{
+  height: 1000px;
+}
+.innerBanner {
   display: flex;
   width: 100%;
-  height: 93.8vh;
-  /* height: calc(93.4vh - 80px); */
+  height: 89%;
+  margin-top: 80px;
 }
 .sectionImage {
-  z-index: -1;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -14,7 +16,7 @@
   filter: drop-shadow(0 0 20px #262626);
 }
 .sectionImage img {
-  width: 65%;
+  width: 55%;
   height: auto;
   clip-path: ellipse(50% 38%);
 }
@@ -31,9 +33,9 @@ h1 {
   color: gray;
   font-size: 45px;
 }
-.iconBanner {
+.iconBanner { 
   width: 100%;
-  height: 6.6vh;
+  height: 10%;
   text-align: center;
   -webkit-animation: 5s animationIcon infinite;
   animation: 5s animationIcon infinite;
@@ -60,19 +62,11 @@ h1 {
 }
 
 @media (max-width: 1300px) {
-  .banner {
-    height: calc(93.4vh - 60px);
-  }
   h1 {
     font-size: 40px;
   }
   .spanTitle {
     font-size: 35px;
-  }
-}
-@media (max-width: 1050px) {
-  .banner {
-    height: calc(93.4vh - 50px);
   }
 }
 @media (max-width: 950px) {
@@ -86,7 +80,11 @@ h1 {
 }
 @media (max-width: 700px) {
   .banner {
-    height: calc(96vh - 50px);
+    height: 790px;
+  }
+  .innerBanner {
+    flex-direction: column;
+    width: 100%;
   }
   h1 {
     font-size: 40px;
@@ -94,18 +92,8 @@ h1 {
   .spanTitle {
     font-size: 35px;
   }
-  .banner {
-    display: block;
-    width: 100%;
-  }
-  .iconBanner {
-    margin-top: 50px;
-  }
 }
 @media (max-width: 550px) {
-  .banner {
-    height: calc(87vh - 50px);
-  }
   h1 {
     font-size: 30px;
   }
@@ -113,3 +101,9 @@ h1 {
     font-size: 25px;
   }
 }
+
+/* @media (max-height: 900px) {
+  .banner {
+    height: 740px;
+  }
+} */
