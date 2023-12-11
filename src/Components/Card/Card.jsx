@@ -39,8 +39,9 @@ function Card({ realization }) {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="modalAll">
                 <ReactModal
+                    tabindex="2"
                     isOpen={IsOpen}
                     onRequestClose={closeModal}
                     className="Modal"
