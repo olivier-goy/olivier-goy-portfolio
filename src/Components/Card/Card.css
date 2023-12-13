@@ -96,8 +96,9 @@
   }
 }
 @media (max-width: 700px) {
-
-
+  .ReactModal__Overlay {
+    z-index: 2;
+  }
   .Modal {
     margin: 0;
     width: 100%;
@@ -119,3 +120,4 @@
     display: none;
   }
 }
+
