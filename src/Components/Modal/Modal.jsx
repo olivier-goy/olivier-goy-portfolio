@@ -32,10 +32,6 @@ function ModalRealization({ realization }) {
                 <p>{realization.descriptionBackground}</p>
                 <h3>Description</h3>
                 <p>{realization.descriptionRealization}</p>
-                <h3>Problématique</h3>
-                <p>{realization.descriptionProblematic}</p>
-                <h3>Solution</h3>
-                <p className="lastChildDescription">{realization.descriptionSolution}</p>
             </div>
             <div className="modalLink">
                 {
