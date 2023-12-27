@@ -55,15 +55,8 @@ function Presentation() {
                     <img src={imageProfil} alt="Représentation profil Olivier GOY développeur web" />
                 </div>
                 <div className="sectionTitle">
-                    <h1
-                        dangerouslySetInnerHTML={{ __html: text }}
-                        style={{
-                            width: '10px',
-                            height: '20px',
-                            background: 'black',
-                            animation: 'blink 1s step-end infinite',
-                        }}
-                    >
+                    <h1 dangerouslySetInnerHTML={{ __html: text }}>
+
                     </h1>
                 </div>
             </div>
