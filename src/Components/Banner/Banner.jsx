@@ -17,7 +17,6 @@ function Presentation() {
     const [charIndex, setCharIndex] = useState(0)
     const typingRef = useRef(null)
 
-
     useEffect(() => {
         
         typingRef.current = setInterval(() => {
