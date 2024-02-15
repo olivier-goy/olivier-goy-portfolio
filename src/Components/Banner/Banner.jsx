@@ -5,6 +5,7 @@ import imageProfil from "../../Assets/Photo-de-profil.webp";
 import "./Banner.css"
 
 function Presentation() {
+
     const lines = [
         "Bonjour et bienvenu,",
         "Je suis Olivier GOY",
@@ -18,6 +19,7 @@ function Presentation() {
 
 
     useEffect(() => {
+        
         typingRef.current = setInterval(() => {
 
             if (lineIndex === lines.length && charIndex === 0) {

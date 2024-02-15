@@ -9,6 +9,8 @@ import About from '../../Components/About/About';
 
 function Home() {
 
+  window.scrollTo(0, 0)
+
   const [isDataLoading, setIsDataLoading] = useState(false)
   const [isProfilData, setIsProfilData] = useState([])
   const [isRealizationData, setIsRealizationData] = useState([])
