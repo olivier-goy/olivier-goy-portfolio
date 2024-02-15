@@ -8,20 +8,21 @@ function Presentation() {
     const lines = [
         "Bonjour et bienvenu,",
         "Je suis Olivier GOY",
-        "Développeur web fullstack"
+        "Développeur web Fullstack"
     ];
 
-    const [text, setText] = useState('');
-    const [lineIndex, setLineIndex] = useState(0);
-    const [charIndex, setCharIndex] = useState(0);
-    const typingRef = useRef(null);
+    const [text, setText] = useState('')
+    const [lineIndex, setLineIndex] = useState(0)
+    const [charIndex, setCharIndex] = useState(0)
+    const typingRef = useRef(null)
 
 
     useEffect(() => {
         typingRef.current = setInterval(() => {
+
             if (lineIndex === lines.length && charIndex === 0) {
-                clearInterval(typingRef.current);
-                return;
+                clearInterval(typingRef.current)
+                return
             }
 
             const currentLine = lines[lineIndex];
@@ -55,9 +56,7 @@ function Presentation() {
                     <img src={imageProfil} alt="Représentation profil Olivier GOY développeur web" />
                 </div>
                 <div className="sectionTitle">
-                    <h1 dangerouslySetInnerHTML={{ __html: text }}>
-
-                    </h1>
+                    <h1 dangerouslySetInnerHTML={{ __html: text }}></h1>
                 </div>
             </div>
             <div className="iconBanner">
