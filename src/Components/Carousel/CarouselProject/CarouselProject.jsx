@@ -14,11 +14,11 @@ function CarouselProject({ realizations }) {
     }
 
     function nextIndex() {
-        if (windowSize <= 850) {
+        if (windowSize <= 900) {
             if (isIndex === realizations.length - 1) {
                 return setIsIndex(0)
             }
-        } else if (windowSize <= 1300) {
+        } else if (windowSize <= 1358) {
             if (isIndex + 2 === realizations.length) {
                 return setIsIndex(0)
             }
@@ -30,10 +30,10 @@ function CarouselProject({ realizations }) {
 
     function prevIndex() {
         if (isIndex === 0) {
-            if (windowSize <= 850) {
+            if (windowSize <= 900) {
                 return setIsIndex(realizations.length - 1)
             }
-            if (windowSize <= 1300) {
+            if (windowSize <= 1358) {
                 return setIsIndex(realizations.length - 2)
             }
             return setIsIndex(realizations.length - 3)
@@ -46,9 +46,9 @@ function CarouselProject({ realizations }) {
             setWindowSize(getSize())
         }
 
-        if (windowSize <= 850) {
+        if (windowSize <= 900) {
             setIsIndex((prevIndex) => Math.min(prevIndex, realizations.length - 1));
-        } else if (windowSize <= 1300) {
+        } else if (windowSize <= 1358) {
             setIsIndex((prevIndex) => Math.min(prevIndex, realizations.length - 2));
         } else {
             setIsIndex((prevIndex) => Math.min(prevIndex, realizations.length - 3));
@@ -58,7 +58,7 @@ function CarouselProject({ realizations }) {
         return () => window.removeEventListener("resize", handleResize);
     }, [windowSize, realizations])
 
-    const cardRealization = windowSize <= 850 ? [realizations[isIndex]] : windowSize <= 1300 ? realizations.slice(isIndex, isIndex + 2) : realizations.slice(isIndex, isIndex + 3)
+    const cardRealization = windowSize <= 900 ? [realizations[isIndex]] : windowSize <= 1358 ? realizations.slice(isIndex, isIndex + 2) : realizations.slice(isIndex, isIndex + 3)
 
     return (
         <div className="carouselProject">

@@ -5,7 +5,7 @@
 }
 .skillSection h2 {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 90px;
 }
 .loading {
   color: #4e871c;
@@ -20,7 +20,7 @@
   margin-bottom: 50px;
 }
 .divisionSkill {
-  padding: 0 10%;
+  padding: 0 15%;
   display: flex;
 }
 .sectionRealization h2 {

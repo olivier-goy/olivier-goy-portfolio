@@ -58,16 +58,16 @@ function Home() {
         </div>
       </section>
       <section>
-        <About
-          descriptionText={isProfilData.description}
-          trainningText={isProfilData.trainning}
-        />
-      </section>
-      <section>
         <div id="realizations" className="sectionRealization">
           <h2>MES REALISATIONS</h2>
           <CarouselProject realizations={isRealizationData} />
         </div>
+      </section>
+      <section>
+        <About
+          descriptionText={isProfilData.description}
+          trainningText={isProfilData.trainning}
+        />
       </section>
     </div>
   ) : (
