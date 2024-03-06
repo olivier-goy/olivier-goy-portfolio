@@ -7,7 +7,7 @@ import "./Banner.css"
 function Presentation() {
 
     const lines = [
-        "Bonjour et bienvenu,",
+        "Bonjour et bienvenue,",
         "Je suis Olivier GOY",
         "Développeur web Fullstack"
     ];
