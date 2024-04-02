@@ -26,11 +26,11 @@ function Header() {
                         <a href="#skills" className="pending">
                             COMPETENCE
                         </a>
-                        <a href="#abouts" className="pending">
-                            A-PROPOS
-                        </a>
                         <a href="#realizations" className="pending">
                             REALISATIONS
+                        </a>
+                        <a href="#abouts" className="pending">
+                            A-PROPOS
                         </a>
                         <a href={cv} target="_blank" rel="noreferrer" className="pending">
                             MON CV
