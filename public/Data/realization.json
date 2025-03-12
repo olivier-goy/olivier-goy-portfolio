@@ -84,5 +84,18 @@
     "linkGitHub": "https://github.com/olivier-goy/olivier-goy-portfolio",
     "linkWebSite": "",
     "tools": ["REACT", "JAVASCRIPT", "FIGMA", "GIT", "GITHUB", "VERCEL"]
+  },
+  {
+    "id": "7",
+    "title": "GESTIONNAIRE DE TACHES",
+    "descriptionBackground": "Projet personel",
+    "descriptionRealization": "Réalisation d'un système de création et de gestion de tâches permettant à l'utilisateur de créer, modifier, supprimer et organiser ses tâches selon leur priorité, statut et date d'échéance.",
+    "descriptionProblematic": "L'utilisateur devait pouvoir créer et modifier une tâche à partir d'un formulaire avec comme prérequis : une priorité, un titre, un descriptif, une date, ainsi que son avancement (soit en cours, soit terminé). L'utilisateur devait également pouvoir supprimer une tâche. Il devait pouvoir filtrer par statut (en cours ou terminé), ainsi que par priorité (basse, moyenne, urgente). L'utilisateur devait pouvoir rechercher une ou plusieurs tâches par titre et filtrer les tâches par date (croissant ou décroissant) ou par priorité (croissant ou décroissant). L'utilisateur devait aussi pouvoir voir l'avancement du projet via un pourcentage.",
+    "descriptionSolution": "Utilisation de JavaScript natif pour dynamiser la page et manipuler le DOM. Mise en place d'une architecture MVC pour ce projet. Utilisation de LocalStorage pour enregistrer les tâches au format JSON, permettant à l'utilisateur de les conserver en mémoire. Hébergement de l'application sur Vercel.",
+    "imageUrl": "https://oliviergoy.dev/Images/Gestionnaire/gestionnaire.webp",
+    "imagesUrl": ["https://oliviergoy.dev/Images/Gestionnaire/gestionnaire.webp"],
+    "linkGitHub": "https://github.com/olivier-goy/Gestionnaire_de_Taches_Interactif",
+    "linkWebSite": "https://gestionnaire-de-taches-interactif.vercel.app/",
+    "tools": ["JAVASCRIPT", "GIT", "GITHUB", "VERCEL", "LocalStorage"]
   }
 ]
