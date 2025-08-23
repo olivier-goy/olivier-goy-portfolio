@@ -15,7 +15,7 @@
             {
                 "titleSkill": "Frameworks",
                 "altSkill": "logo framework",
-                "listSkills": ["React", "Angular", "ExpressJs"],
+                "listSkills": ["ReactJS", "React Native", "Angular", "ExpressJs"],
                 "logoSkillUrl" : "https://oliviergoy.dev/Images/algorithme.png"
             },  
             {
