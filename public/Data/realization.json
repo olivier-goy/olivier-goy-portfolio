@@ -97,5 +97,19 @@
     "linkGitHub": "https://github.com/olivier-goy/Gestionnaire_de_Taches_Interactif",
     "linkWebSite": "https://gestionnaire-de-taches-interactif.vercel.app/",
     "tools": ["JAVASCRIPT", "GIT", "GITHUB", "VERCEL", "LocalStorage"]
+  },
+  {
+    "id": "8",
+    "title": "Application Pokédex",
+    "descriptionBackground": "Projet personel",
+    "descriptionRealization": "Pokédex interactif qui permet de rechercher, trier et explorer les Pokémon grâce à une liste paginée, un système de navigation par swipe entre les fiches détaillées et une interface colorée adaptée au type de chaque Pokémon.",
+    "descriptionProblematic": "",
+    "descriptionSolution": "",
+    "imageUrl": "https://oliviergoy.dev/Images/Gestionnaire/pokedex-1.webp",
+    "imagesUrl": ["https://oliviergoy.dev/Images/Gestionnaire/pokedex-1.webp", "https://oliviergoy.dev/Images/Gestionnaire/pokedex-2.webp", "https://oliviergoy.dev/Images/Gestionnaire/pokedex-3.webp", "https://oliviergoy.dev/Images/Gestionnaire/pokedex-4.webp", "https://oliviergoy.dev/Images/Gestionnaire/pokedex-5.webp"],
+    "linkGitHub": "https://github.com/olivier-goy/Exercice-React-Native",
+    "linkWebSite": "",
+    "tools": ["REACT NATIVE", "GIT", "GITHUB", "EXPO GO", "FIGMA"]
   }
+
 ]
