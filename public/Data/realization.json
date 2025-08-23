@@ -106,7 +106,7 @@
     "descriptionProblematic": "",
     "descriptionSolution": "",
     "imageUrl": "https://oliviergoy.dev/Images/Pokédex/pokedex-1.webp",
-    "imagesUrl": ["https://oliviergoy.dev/Images/Pokédex/pokedex-1.webp", "https://oliviergoy.dev/Images/Pokédex/pokedex-3.webp", "https://oliviergoy.dev/Images/Pokédex/pokedex-4.webp", "https://oliviergoy.dev/Images/Pokédex/pokedex-5.webp"],
+    "imagesUrl": ["https://oliviergoy.dev/Images/Pokédex/pokedex-1.webp", "https://oliviergoy.dev/Images/Pokédex/pokedex-4.webp", "https://oliviergoy.dev/Images/Pokédex/pokedex-5.webp"],
     "linkGitHub": "https://github.com/olivier-goy/Exercice-React-Native",
     "linkWebSite": "",
     "tools": ["REACT NATIVE", "GIT", "GITHUB", "EXPO GO", "FIGMA"]
