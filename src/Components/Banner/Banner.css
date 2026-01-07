@@ -30,6 +30,10 @@ h1 {
   padding: 10%;
   font-size: 50px;
 }
+.cursor {
+    display: inline-block;
+    animation: blink 1s steps(2, start) infinite;
+}
 .iconBanner { 
   text-align: center;
   margin-bottom: 5px;
@@ -41,7 +45,16 @@ h1 {
   font-weight: 700;
   margin: 5px;
 }
-
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50.01%,
+  100% {
+    opacity: 0;
+  }
+}
 @keyframes animationIcon {
   0% {
     transform: scale(0.8);
